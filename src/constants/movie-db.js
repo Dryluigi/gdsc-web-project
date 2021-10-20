@@ -1,2129 +1,1184 @@
 const movies = [
   {
-    "id": 1,
-    "title": "Beetlejuice",
-    "year": "1988",
-    "runtime": "92",
-    "genres": [
-      "Comedy",
-      "Fantasy"
+    "adult": false,
+    "backdrop_path": "/5hNcsnMkwU2LknLoru73c76el3z.jpg",
+    "genre_ids": [
+      35,
+      18,
+      10749
     ],
-    "director": "Tim Burton",
-    "actors": "Alec Baldwin, Geena Davis, Annie McEnroe, Maurice Page",
-    "plot": "A couple of recently deceased ghosts contract the services of a \"bio-exorcist\" in order to remove the obnoxious new owners of their house.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwODE3MDE0MV5BMl5BanBnXkFtZTgwNTk1MjI4MzE@._V1_SX300.jpg"
+    "id": 19404,
+    "original_language": "hi",
+    "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
+    "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
+    "popularity": 25.33,
+    "poster_path": "/2CAL2433ZeIihfX1Hb2139CX0pW.jpg",
+    "release_date": "1995-10-20",
+    "title": "Dilwale Dulhania Le Jayenge",
+    "video": false,
+    "vote_average": 8.7,
+    "vote_count": 3190
   },
   {
-    "id": 2,
-    "title": "The Cotton Club",
-    "year": "1984",
-    "runtime": "127",
-    "genres": [
-      "Crime",
-      "Drama",
-      "Music"
+    "adult": false,
+    "backdrop_path": "/iNh3BivHyg5sQRPP1KOkzguEX0H.jpg",
+    "genre_ids": [
+      18,
+      80
     ],
-    "director": "Francis Ford Coppola",
-    "actors": "Richard Gere, Gregory Hines, Diane Lane, Lonette McKee",
-    "plot": "The Cotton Club was a famous night club in Harlem. The story follows the people that visited the club, those that ran it, and is peppered with the Jazz music that made it so famous.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg"
-  },
-  {
-    "id": 3,
+    "id": 278,
+    "original_language": "en",
+    "original_title": "The Shawshank Redemption",
+    "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+    "popularity": 58.255,
+    "poster_path": "/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+    "release_date": "1994-09-23",
     "title": "The Shawshank Redemption",
-    "year": "1994",
-    "runtime": "142",
-    "genres": [
-      "Crime",
-      "Drama"
+    "video": false,
+    "vote_average": 8.7,
+    "vote_count": 19908
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/rSPw7tgCH9c6NqICZef4kZjFOQ5.jpg",
+    "genre_ids": [
+      18,
+      80
+    ],
+    "id": 238,
+    "original_language": "en",
+    "original_title": "The Godfather",
+    "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+    "popularity": 61.648,
+    "poster_path": "/eEslKSwcqmiNS6va24Pbxf2UKmJ.jpg",
+    "release_date": "1972-03-14",
+    "title": "The Godfather",
+    "video": false,
+    "vote_average": 8.7,
+    "vote_count": 14928
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/jtAI6OJIWLWiRItNSZoWjrsUtmi.jpg",
+    "genre_ids": [
+      10749
+    ],
+    "id": 724089,
+    "original_language": "en",
+    "original_title": "Gabriel's Inferno Part II",
+    "overview": "Professor Gabriel Emerson finally learns the truth about Julia Mitchell's identity, but his realization comes a moment too late. Julia is done waiting for the well-respected Dante specialist to remember her and wants nothing more to do with him. Can Gabriel win back her heart before she finds love in another's arms?",
+    "popularity": 9.417,
+    "poster_path": "/x5o8cLZfEXMoZczTYWLrUo1P7UJ.jpg",
+    "release_date": "2020-07-31",
+    "title": "Gabriel's Inferno Part II",
+    "video": false,
+    "vote_average": 8.7,
+    "vote_count": 1314
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/fQq1FWp1rC89xDrRMuyFJdFUdMd.jpg",
+    "genre_ids": [
+      10749,
+      35
+    ],
+    "id": 761053,
+    "original_language": "en",
+    "original_title": "Gabriel's Inferno Part III",
+    "overview": "The final part of the film adaption of the erotic romance novel Gabriel's Inferno written by an anonymous Canadian author under the pen name Sylvain Reynard.",
+    "popularity": 21.173,
+    "poster_path": "/qtX2Fg9MTmrbgN1UUvGoCsImTM8.jpg",
+    "release_date": "2020-11-19",
+    "title": "Gabriel's Inferno Part III",
+    "video": false,
+    "vote_average": 8.6,
+    "vote_count": 882
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/1EAxNqdkVnp48a7NUuNBHGflowM.jpg",
+    "genre_ids": [
+      16,
+      28,
+      18,
+      878
+    ],
+    "id": 283566,
+    "original_language": "ja",
+    "original_title": "シン・エヴァンゲリオン劇場版:||",
+    "overview": "In the aftermath of the Fourth Impact, stranded without their Evangelions, Shinji, Asuka, and Rei find refuge in one of the rare pockets of humanity that still exist on the ruined planet Earth. There, each of them live a life far different from their days as an Evangelion pilot. However, the danger to the world is far from over. A new impact is looming on the horizon—one that will prove to be the true end of Evangelion.",
+    "popularity": 189.479,
+    "poster_path": "/jDwZavHo99JtGsCyRzp4epeeBHx.jpg",
+    "release_date": "2021-03-08",
+    "title": "Evangelion: 3.0+1.0 Thrice Upon a Time",
+    "video": false,
+    "vote_average": 8.6,
+    "vote_count": 345
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/w2uGvCpMtvRqZg6waC1hvLyZoJa.jpg",
+    "genre_ids": [
+      10749
+    ],
+    "id": 696374,
+    "original_language": "en",
+    "original_title": "Gabriel's Inferno",
+    "overview": "An intriguing and sinful exploration of seduction, forbidden love, and redemption, Gabriel's Inferno is a captivating and wildly passionate tale of one man's escape from his own personal hell as he tries to earn the impossible--forgiveness and love.",
+    "popularity": 9.464,
+    "poster_path": "/oyG9TL7FcRP4EZ9Vid6uKzwdndz.jpg",
+    "release_date": "2020-05-29",
+    "title": "Gabriel's Inferno",
+    "video": false,
+    "vote_average": 8.6,
+    "vote_count": 2128
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/loRmRzQXZeqG78TqZuyvSlEQfZb.jpg",
+    "genre_ids": [
+      18,
+      36,
+      10752
+    ],
+    "id": 424,
+    "original_language": "en",
+    "original_title": "Schindler's List",
+    "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+    "popularity": 34.579,
+    "poster_path": "/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+    "release_date": "1993-11-30",
+    "title": "Schindler's List",
+    "video": false,
+    "vote_average": 8.6,
+    "vote_count": 11931
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/poec6RqOKY9iSiIUmfyfPfiLtvB.jpg",
+    "genre_ids": [
+      18,
+      80
+    ],
+    "id": 240,
+    "original_language": "en",
+    "original_title": "The Godfather: Part II",
+    "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
+    "popularity": 53.735,
+    "poster_path": "/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
+    "release_date": "1974-12-20",
+    "title": "The Godfather: Part II",
+    "video": false,
+    "vote_average": 8.6,
+    "vote_count": 8970
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/dIWwZW7dJJtqC6CgWzYkNVKIUm8.jpg",
+    "genre_ids": [
+      10749,
+      16,
+      18
+    ],
+    "id": 372058,
+    "original_language": "ja",
+    "original_title": "君の名は。",
+    "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
+    "popularity": 154.949,
+    "poster_path": "/q719jXXEzOoYaps6babgKnONONX.jpg",
+    "release_date": "2016-08-26",
+    "title": "Your Name.",
+    "video": false,
+    "vote_average": 8.6,
+    "vote_count": 7963
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/l5K9elugftlcyIHHm4nylvsn26X.jpg",
+    "genre_ids": [
+      18
+    ],
+    "id": 255709,
+    "original_language": "ko",
+    "original_title": "소원",
+    "overview": "After 8-year-old So-won narrowly survives a brutal sexual assault, her family labors to help her heal while coping with their own rage and grief.",
+    "popularity": 6.095,
+    "poster_path": "/x9yjkm9gIz5qI5fJMUTfBnWiB2o.jpg",
+    "release_date": "2013-10-02",
+    "title": "Hope",
+    "video": false,
+    "vote_average": 8.6,
+    "vote_count": 220
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/u1wHUA0R48FH4WV3sGqjwx3aNZm.jpg",
+    "genre_ids": [
+      16,
+      18,
+      10402,
+      10749
+    ],
+    "id": 632632,
+    "original_language": "ja",
+    "original_title": "映画 ギヴン",
+    "overview": "The film centers on the love relationship among the band's bassist Haruki Nakayama, drummer Akihiko Kaji, and Akihiko's roommate and ex-boyfriend Ugetsu Murata.",
+    "popularity": 130.201,
+    "poster_path": "/xKCtoYHUyX8zAg68eemnYa2orep.jpg",
+    "release_date": "2020-08-22",
+    "title": "Given",
+    "video": false,
+    "vote_average": 8.6,
+    "vote_count": 258
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/bf9shWfUKyEB5oB7awJeKIoCehl.jpg",
+    "genre_ids": [
+      16,
+      10751,
+      14
     ],
-    "director": "Frank Darabont",
-    "actors": "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler",
-    "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg"
-  },
-  {
-    "id": 4,
-    "title": "Crocodile Dundee",
-    "year": "1986",
-    "runtime": "97",
-    "genres": [
-      "Adventure",
-      "Comedy"
-    ],
-    "director": "Peter Faiman",
-    "actors": "Paul Hogan, Linda Kozlowski, John Meillon, David Gulpilil",
-    "plot": "An American reporter goes to the Australian outback to meet an eccentric crocodile poacher and invites him to New York City.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg0MTU1MTg4NF5BMl5BanBnXkFtZTgwMDgzNzYxMTE@._V1_SX300.jpg"
-  },
-  {
-    "id": 5,
-    "title": "Valkyrie",
-    "year": "2008",
-    "runtime": "121",
-    "genres": [
-      "Drama",
-      "History",
-      "Thriller"
-    ],
-    "director": "Bryan Singer",
-    "actors": "Tom Cruise, Kenneth Branagh, Bill Nighy, Tom Wilkinson",
-    "plot": "A dramatization of the 20 July assassination and political coup plot by desperate renegade German Army officers against Hitler during World War II.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTg3Njc2ODEyN15BMl5BanBnXkFtZTcwNTAwMzc3NA@@._V1_SX300.jpg"
-  },
-  {
-    "id": 6,
-    "title": "Ratatouille",
-    "year": "2007",
-    "runtime": "111",
-    "genres": [
-      "Animation",
-      "Comedy",
-      "Family"
-    ],
-    "director": "Brad Bird, Jan Pinkava",
-    "actors": "Patton Oswalt, Ian Holm, Lou Romano, Brian Dennehy",
-    "plot": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg"
-  },
-  {
-    "id": 7,
-    "title": "City of God",
-    "year": "2002",
-    "runtime": "130",
-    "genres": [
-      "Crime",
-      "Drama"
-    ],
-    "director": "Fernando Meirelles, Kátia Lund",
-    "actors": "Alexandre Rodrigues, Leandro Firmino, Phellipe Haagensen, Douglas Silva",
-    "plot": "Two boys growing up in a violent neighborhood of Rio de Janeiro take different paths: one becomes a photographer, the other a drug dealer.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4ODQ3ODkzNV5BMl5BanBnXkFtZTYwOTc4NDI3._V1_SX300.jpg"
-  },
-  {
-    "id": 8,
-    "title": "Memento",
-    "year": "2000",
-    "runtime": "113",
-    "genres": [
-      "Mystery",
-      "Thriller"
-    ],
-    "director": "Christopher Nolan",
-    "actors": "Guy Pearce, Carrie-Anne Moss, Joe Pantoliano, Mark Boone Junior",
-    "plot": "A man juggles searching for his wife's murderer and keeping his short-term memory loss from being an obstacle.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNThiYjM3MzktMDg3Yy00ZWQ3LTk3YWEtN2M0YmNmNWEwYTE3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
-  },
-  {
-    "id": 9,
-    "title": "The Intouchables",
-    "year": "2011",
-    "runtime": "112",
-    "genres": [
-      "Biography",
-      "Comedy",
-      "Drama"
-    ],
-    "director": "Olivier Nakache, Eric Toledano",
-    "actors": "François Cluzet, Omar Sy, Anne Le Ny, Audrey Fleurot",
-    "plot": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_SX300.jpg"
-  },
-  {
-    "id": 10,
-    "title": "Stardust",
-    "year": "2007",
-    "runtime": "127",
-    "genres": [
-      "Adventure",
-      "Family",
-      "Fantasy"
-    ],
-    "director": "Matthew Vaughn",
-    "actors": "Ian McKellen, Bimbo Hart, Alastair MacIntosh, David Kelly",
-    "plot": "In a countryside town bordering on a magical land, a young man makes a promise to his beloved that he'll retrieve a fallen star by venturing into the magical realm.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjkyMTE1OTYwNF5BMl5BanBnXkFtZTcwMDIxODYzMw@@._V1_SX300.jpg"
-  },
-  {
-    "id": 11,
-    "title": "Apocalypto",
-    "year": "2006",
-    "runtime": "139",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Drama"
-    ],
-    "director": "Mel Gibson",
-    "actors": "Rudy Youngblood, Dalia Hernández, Jonathan Brewer, Morris Birdyellowhead",
-    "plot": "As the Mayan kingdom faces its decline, the rulers insist the key to prosperity is to build more temples and offer human sacrifices. Jaguar Paw, a young man captured for sacrifice, flees to avoid his fate.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTM1NjYyNTY5OV5BMl5BanBnXkFtZTcwMjgwNTMzMQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 12,
-    "title": "Taxi Driver",
-    "year": "1976",
-    "runtime": "113",
-    "genres": [
-      "Crime",
-      "Drama"
-    ],
-    "director": "Martin Scorsese",
-    "actors": "Diahnne Abbott, Frank Adu, Victor Argo, Gino Ardito",
-    "plot": "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feeds his urge for violent action, attempting to save a preadolescent prostitute in the process.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNGQxNDgzZWQtZTNjNi00M2RkLWExZmEtNmE1NjEyZDEwMzA5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
-  },
-  {
-    "id": 13,
-    "title": "No Country for Old Men",
-    "year": "2007",
-    "runtime": "122",
-    "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
-    ],
-    "director": "Ethan Coen, Joel Coen",
-    "actors": "Tommy Lee Jones, Javier Bardem, Josh Brolin, Woody Harrelson",
-    "plot": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 14,
-    "title": "Planet 51",
-    "year": "2009",
-    "runtime": "91",
-    "genres": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "director": "Jorge Blanco, Javier Abad, Marcos Martínez",
-    "actors": "Jessica Biel, John Cleese, Gary Oldman, Dwayne Johnson",
-    "plot": "An alien civilization is invaded by Astronaut Chuck Baker, who believes that the planet was uninhabited. Wanted by the military, Baker must get back to his ship before it goes into orbit without him.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTUyOTAyNTA5Ml5BMl5BanBnXkFtZTcwODU2OTM0Mg@@._V1_SX300.jpg"
-  },
-  {
-    "id": 15,
-    "title": "Looper",
-    "year": "2012",
-    "runtime": "119",
-    "genres": [
-      "Action",
-      "Crime",
-      "Drama"
-    ],
-    "director": "Rian Johnson",
-    "actors": "Joseph Gordon-Levitt, Bruce Willis, Emily Blunt, Paul Dano",
-    "plot": "In 2074, when the mob wants to get rid of someone, the target is sent into the past, where a hired gun awaits - someone like Joe - who one day learns the mob wants to 'close the loop' by sending back Joe's future self for assassination.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTY3NTY0MjEwNV5BMl5BanBnXkFtZTcwNTE3NDA1OA@@._V1_SX300.jpg"
-  },
-  {
-    "id": 16,
-    "title": "Corpse Bride",
-    "year": "2005",
-    "runtime": "77",
-    "genres": [
-      "Animation",
-      "Drama",
-      "Family"
-    ],
-    "director": "Tim Burton, Mike Johnson",
-    "actors": "Johnny Depp, Helena Bonham Carter, Emily Watson, Tracey Ullman",
-    "plot": "When a shy groom practices his wedding vows in the inadvertent presence of a deceased young woman, she rises from the grave assuming he has married her.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTk1MTY1NjU4MF5BMl5BanBnXkFtZTcwNjIzMTEzMw@@._V1_SX300.jpg"
-  },
-  {
-    "id": 17,
-    "title": "The Third Man",
-    "year": "1949",
-    "runtime": "93",
-    "genres": [
-      "Film-Noir",
-      "Mystery",
-      "Thriller"
-    ],
-    "director": "Carol Reed",
-    "actors": "Joseph Cotten, Alida Valli, Orson Welles, Trevor Howard",
-    "plot": "Pulp novelist Holly Martins travels to shadowy, postwar Vienna, only to find himself investigating the mysterious death of an old friend, Harry Lime.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjMwNzMzMTQ0Ml5BMl5BanBnXkFtZTgwNjExMzUwNjE@._V1_SX300.jpg"
-  },
-  {
-    "id": 18,
-    "title": "The Beach",
-    "year": "2000",
-    "runtime": "119",
-    "genres": [
-      "Adventure",
-      "Drama",
-      "Romance"
-    ],
-    "director": "Danny Boyle",
-    "actors": "Leonardo DiCaprio, Daniel York, Patcharawan Patarakijjanon, Virginie Ledoyen",
-    "plot": "Twenty-something Richard travels to Thailand and finds himself in possession of a strange map. Rumours state that it leads to a solitary beach paradise, a tropical bliss - excited and intrigued, he sets out to find it.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BN2ViYTFiZmUtOTIxZi00YzIxLWEyMzUtYjQwZGNjMjNhY2IwXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
-  },
-  {
-    "id": 19,
-    "title": "Scarface",
-    "year": "1983",
-    "runtime": "170",
-    "genres": [
-      "Crime",
-      "Drama"
-    ],
-    "director": "Brian De Palma",
-    "actors": "Al Pacino, Steven Bauer, Michelle Pfeiffer, Mary Elizabeth Mastrantonio",
-    "plot": "In Miami in 1980, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAzOTM4MzEwNl5BMl5BanBnXkFtZTgwMzU1OTc1MDE@._V1_SX300.jpg"
-  },
-  {
-    "id": 20,
-    "title": "Sid and Nancy",
-    "year": "1986",
-    "runtime": "112",
-    "genres": [
-      "Biography",
-      "Drama",
-      "Music"
-    ],
-    "director": "Alex Cox",
-    "actors": "Gary Oldman, Chloe Webb, David Hayman, Debby Bishop",
-    "plot": "Morbid biographical story of Sid Vicious, bassist with British punk group the Sex Pistols, and his girlfriend Nancy Spungen. When the Sex Pistols break up after their fateful US tour, ...",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjExNjA5NzY4M15BMl5BanBnXkFtZTcwNjQ2NzI5NA@@._V1_SX300.jpg"
-  },
-  {
-    "id": 21,
-    "title": "Black Swan",
-    "year": "2010",
-    "runtime": "108",
-    "genres": [
-      "Drama",
-      "Thriller"
-    ],
-    "director": "Darren Aronofsky",
-    "actors": "Natalie Portman, Mila Kunis, Vincent Cassel, Barbara Hershey",
-    "plot": "A committed dancer wins the lead role in a production of Tchaikovsky's \"Swan Lake\" only to find herself struggling to maintain her sanity.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_SX300.jpg"
-  },
-  {
-    "id": 22,
-    "title": "Inception",
-    "year": "2010",
-    "runtime": "148",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "director": "Christopher Nolan",
-    "actors": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy",
-    "plot": "A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg"
-  },
-  {
-    "id": 23,
-    "title": "The Deer Hunter",
-    "year": "1978",
-    "runtime": "183",
-    "genres": [
-      "Drama",
-      "War"
-    ],
-    "director": "Michael Cimino",
-    "actors": "Robert De Niro, John Cazale, John Savage, Christopher Walken",
-    "plot": "An in-depth examination of the ways in which the U.S. Vietnam War impacts and disrupts the lives of people in a small industrial town in Pennsylvania.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzYmRmZTQtYjk2NS00MDdlLTkxMDAtMTE2YTM2ZmNlMTBkXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
-  },
-  {
-    "id": 24,
-    "title": "Chasing Amy",
-    "year": "1997",
-    "runtime": "113",
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Romance"
-    ],
-    "director": "Kevin Smith",
-    "actors": "Ethan Suplee, Ben Affleck, Scott Mosier, Jason Lee",
-    "plot": "Holden and Banky are comic book artists. Everything's going good for them until they meet Alyssa, also a comic book artist. Holden falls for her, but his hopes are crushed when he finds out she's gay.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BZDM3MTg2MGUtZDM0MC00NzMwLWE5NjItOWFjNjA2M2I4YzgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
-  },
-  {
-    "id": 25,
-    "title": "Django Unchained",
-    "year": "2012",
-    "runtime": "165",
-    "genres": [
-      "Drama",
-      "Western"
-    ],
-    "director": "Quentin Tarantino",
-    "actors": "Jamie Foxx, Christoph Waltz, Leonardo DiCaprio, Kerry Washington",
-    "plot": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_SX300.jpg"
-  },
-  {
-    "id": 26,
-    "title": "The Silence of the Lambs",
-    "year": "1991",
-    "runtime": "118",
-    "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
-    ],
-    "director": "Jonathan Demme",
-    "actors": "Jodie Foster, Lawrence A. Bonney, Kasi Lemmons, Lawrence T. Wrentz",
-    "plot": "A young F.B.I. cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer who skins his victims.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ2NzkzMDI4OF5BMl5BanBnXkFtZTcwMDA0NzE1NA@@._V1_SX300.jpg"
-  },
-  {
-    "id": 27,
-    "title": "American Beauty",
-    "year": "1999",
-    "runtime": "122",
-    "genres": [
-      "Drama",
-      "Romance"
-    ],
-    "director": "Sam Mendes",
-    "actors": "Kevin Spacey, Annette Bening, Thora Birch, Wes Bentley",
-    "plot": "A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjM4NTI5NzYyNV5BMl5BanBnXkFtZTgwNTkxNTYxMTE@._V1_SX300.jpg"
-  },
-  {
-    "id": 28,
-    "title": "Snatch",
-    "year": "2000",
-    "runtime": "102",
-    "genres": [
-      "Comedy",
-      "Crime"
-    ],
-    "director": "Guy Ritchie",
-    "actors": "Benicio Del Toro, Dennis Farina, Vinnie Jones, Brad Pitt",
-    "plot": "Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers, and supposedly Jewish jewelers fight to track down a priceless stolen diamond.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTA2NDYxOGYtYjU1Mi00Y2QzLTgxMTQtMWI1MGI0ZGQ5MmU4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
-  },
-  {
-    "id": 29,
-    "title": "Midnight Express",
-    "year": "1978",
-    "runtime": "121",
-    "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
-    ],
-    "director": "Alan Parker",
-    "actors": "Brad Davis, Irene Miracle, Bo Hopkins, Paolo Bonacelli",
-    "plot": "Billy Hayes, an American college student, is caught smuggling drugs out of Turkey and thrown into prison.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQyMDA5MzkyOF5BMl5BanBnXkFtZTgwOTYwNTcxMTE@._V1_SX300.jpg"
-  },
-  {
-    "id": 30,
-    "title": "Pulp Fiction",
-    "year": "1994",
-    "runtime": "154",
-    "genres": [
-      "Crime",
-      "Drama"
-    ],
-    "director": "Quentin Tarantino",
-    "actors": "Tim Roth, Amanda Plummer, Laura Lovelace, John Travolta",
-    "plot": "The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxMTA5OTAzMl5BMl5BanBnXkFtZTgwNjA5MDc3NjE@._V1_SX300.jpg"
-  },
-  {
-    "id": 31,
-    "title": "Lock, Stock and Two Smoking Barrels",
-    "year": "1998",
-    "runtime": "107",
-    "genres": [
-      "Comedy",
-      "Crime"
-    ],
-    "director": "Guy Ritchie",
-    "actors": "Jason Flemyng, Dexter Fletcher, Nick Moran, Jason Statham",
-    "plot": "A botched card game in London triggers four friends, thugs, weed-growers, hard gangsters, loan sharks and debt collectors to collide with each other in a series of unexpected events, all for the sake of weed, cash and two antique shotguns.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTAyN2JmZmEtNjAyMy00NzYwLThmY2MtYWQ3OGNhNjExMmM4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
-  },
-  {
-    "id": 32,
-    "title": "Lucky Number Slevin",
-    "year": "2006",
-    "runtime": "110",
-    "genres": [
-      "Crime",
-      "Drama",
-      "Mystery"
-    ],
-    "director": "Paul McGuigan",
-    "actors": "Josh Hartnett, Bruce Willis, Lucy Liu, Morgan Freeman",
-    "plot": "A case of mistaken identity lands Slevin into the middle of a war being plotted by two of the city's most rival crime bosses: The Rabbi and The Boss. Slevin is under constant surveillance by relentless Detective Brikowski as well as the infamous assassin Goodkat and finds himself having to hatch his own ingenious plot to get them before they get him.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzc1OTEwMTk4OF5BMl5BanBnXkFtZTcwMTEzMDQzMQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 33,
-    "title": "Rear Window",
-    "year": "1954",
-    "runtime": "112",
-    "genres": [
-      "Mystery",
-      "Thriller"
-    ],
-    "director": "Alfred Hitchcock",
-    "actors": "James Stewart, Grace Kelly, Wendell Corey, Thelma Ritter",
-    "plot": "A wheelchair-bound photographer spies on his neighbours from his apartment window and becomes convinced one of them has committed murder.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNGUxYWM3M2MtMGM3Mi00ZmRiLWE0NGQtZjE5ODI2OTJhNTU0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
-  },
-  {
-    "id": 34,
-    "title": "Pan's Labyrinth",
-    "year": "2006",
-    "runtime": "118",
-    "genres": [
-      "Drama",
-      "Fantasy",
-      "War"
-    ],
-    "director": "Guillermo del Toro",
-    "actors": "Ivana Baquero, Sergi López, Maribel Verdú, Doug Jones",
-    "plot": "In the falangist Spain of 1944, the bookish young stepdaughter of a sadistic army officer escapes into an eerie but captivating fantasy world.",
-    "posterUrl": ""
-  },
-  {
-    "id": 35,
-    "title": "Shutter Island",
-    "year": "2010",
-    "runtime": "138",
-    "genres": [
-      "Mystery",
-      "Thriller"
-    ],
-    "director": "Martin Scorsese",
-    "actors": "Leonardo DiCaprio, Mark Ruffalo, Ben Kingsley, Max von Sydow",
-    "plot": "In 1954, a U.S. marshal investigates the disappearance of a murderess who escaped from a hospital for the criminally insane.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxMTIyNzMxMV5BMl5BanBnXkFtZTcwOTc4OTI3Mg@@._V1_SX300.jpg"
-  },
-  {
-    "id": 36,
-    "title": "Reservoir Dogs",
-    "year": "1992",
-    "runtime": "99",
-    "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
-    ],
-    "director": "Quentin Tarantino",
-    "actors": "Harvey Keitel, Tim Roth, Michael Madsen, Chris Penn",
-    "plot": "After a simple jewelry heist goes terribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjE5ZDJiZTQtOGE2YS00ZTc5LTk0OGUtOTg2NjdjZmVlYzE2XkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_SX300.jpg"
-  },
-  {
-    "id": 37,
-    "title": "The Shining",
-    "year": "1980",
-    "runtime": "146",
-    "genres": [
-      "Drama",
-      "Horror"
-    ],
-    "director": "Stanley Kubrick",
-    "actors": "Jack Nicholson, Shelley Duvall, Danny Lloyd, Scatman Crothers",
-    "plot": "A family heads to an isolated hotel for the winter where an evil and spiritual presence influences the father into violence, while his psychic son sees horrific forebodings from the past and of the future.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BODMxMjE3NTA4Ml5BMl5BanBnXkFtZTgwNDc0NTIxMDE@._V1_SX300.jpg"
-  },
-  {
-    "id": 38,
-    "title": "Midnight in Paris",
-    "year": "2011",
-    "runtime": "94",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Romance"
-    ],
-    "director": "Woody Allen",
-    "actors": "Owen Wilson, Rachel McAdams, Kurt Fuller, Mimi Kennedy",
-    "plot": "While on a trip to Paris with his fiancée's family, a nostalgic screenwriter finds himself mysteriously going back to the 1920s everyday at midnight.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTM4NjY1MDQwMl5BMl5BanBnXkFtZTcwNTI3Njg3NA@@._V1_SX300.jpg"
-  },
-  {
-    "id": 39,
-    "title": "Les Misérables",
-    "year": "2012",
-    "runtime": "158",
-    "genres": [
-      "Drama",
-      "Musical",
-      "Romance"
-    ],
-    "director": "Tom Hooper",
-    "actors": "Hugh Jackman, Russell Crowe, Anne Hathaway, Amanda Seyfried",
-    "plot": "In 19th-century France, Jean Valjean, who for decades has been hunted by the ruthless policeman Javert after breaking parole, agrees to care for a factory worker's daughter. The decision changes their lives forever.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTQ4NDI3NDg4M15BMl5BanBnXkFtZTcwMjY5OTI1OA@@._V1_SX300.jpg"
-  },
-  {
-    "id": 40,
-    "title": "L.A. Confidential",
-    "year": "1997",
-    "runtime": "138",
-    "genres": [
-      "Crime",
-      "Drama",
-      "Mystery"
-    ],
-    "director": "Curtis Hanson",
-    "actors": "Kevin Spacey, Russell Crowe, Guy Pearce, James Cromwell",
-    "plot": "As corruption grows in 1950s LA, three policemen - one strait-laced, one brutal, and one sleazy - investigate a series of murders with their own brand of justice.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNWEwNDhhNWUtYWMzNi00ZTNhLWFiZDAtMjBjZmJhMTU0ZTY2XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
-  },
-  {
-    "id": 41,
-    "title": "Moneyball",
-    "year": "2011",
-    "runtime": "133",
-    "genres": [
-      "Biography",
-      "Drama",
-      "Sport"
-    ],
-    "director": "Bennett Miller",
-    "actors": "Brad Pitt, Jonah Hill, Philip Seymour Hoffman, Robin Wright",
-    "plot": "Oakland A's general manager Billy Beane's successful attempt to assemble a baseball team on a lean budget by employing computer-generated analysis to acquire new players.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxOTU3Mzc1M15BMl5BanBnXkFtZTcwMzk1ODUzNg@@._V1_SX300.jpg"
-  },
-  {
-    "id": 42,
-    "title": "The Hangover",
-    "year": "2009",
-    "runtime": "100",
-    "genres": [
-      "Comedy"
-    ],
-    "director": "Todd Phillips",
-    "actors": "Bradley Cooper, Ed Helms, Zach Galifianakis, Justin Bartha",
-    "plot": "Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing. They make their way around the city in order to find their friend before his wedding.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU1MDA1MTYwMF5BMl5BanBnXkFtZTcwMDcxMzA1Mg@@._V1_SX300.jpg"
-  },
-  {
-    "id": 43,
-    "title": "The Great Beauty",
-    "year": "2013",
-    "runtime": "141",
-    "genres": [
-      "Drama"
-    ],
-    "director": "Paolo Sorrentino",
-    "actors": "Toni Servillo, Carlo Verdone, Sabrina Ferilli, Carlo Buccirosso",
-    "plot": "Jep Gambardella has seduced his way through the lavish nightlife of Rome for decades, but after his 65th birthday and a shock from the past, Jep looks past the nightclubs and parties to find a timeless landscape of absurd, exquisite beauty.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ0ODg1OTQ2Nl5BMl5BanBnXkFtZTgwNTc2MDY1MDE@._V1_SX300.jpg"
-  },
-  {
-    "id": 44,
-    "title": "Gran Torino",
-    "year": "2008",
-    "runtime": "116",
-    "genres": [
-      "Drama"
-    ],
-    "director": "Clint Eastwood",
-    "actors": "Clint Eastwood, Christopher Carley, Bee Vang, Ahney Her",
-    "plot": "Disgruntled Korean War veteran Walt Kowalski sets out to reform his neighbor, a Hmong teenager who tried to steal Kowalski's prized possession: a 1972 Gran Torino.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTQyMTczMTAxMl5BMl5BanBnXkFtZTcwOTc1ODE0Mg@@._V1_SX300.jpg"
-  },
-  {
-    "id": 45,
-    "title": "Mary and Max",
-    "year": "2009",
-    "runtime": "92",
-    "genres": [
-      "Animation",
-      "Comedy",
-      "Drama"
-    ],
-    "director": "Adam Elliot",
-    "actors": "Toni Collette, Philip Seymour Hoffman, Barry Humphries, Eric Bana",
-    "plot": "A tale of friendship between two unlikely pen pals: Mary, a lonely, eight-year-old girl living in the suburbs of Melbourne, and Max, a forty-four-year old, severely obese man living in New York.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1NDIyNTA1Nl5BMl5BanBnXkFtZTcwMjc2Njk3OA@@._V1_SX300.jpg"
-  },
-  {
-    "id": 46,
-    "title": "Flight",
-    "year": "2012",
-    "runtime": "138",
-    "genres": [
-      "Drama",
-      "Thriller"
-    ],
-    "director": "Robert Zemeckis",
-    "actors": "Nadine Velazquez, Denzel Washington, Carter Cabassa, Adam C. Edwards",
-    "plot": "An airline pilot saves almost all his passengers on his malfunctioning airliner which eventually crashed, but an investigation into the accident reveals something troubling.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUxMjI1OTMxNl5BMl5BanBnXkFtZTcwNjc3NTY1OA@@._V1_SX300.jpg"
-  },
-  {
-    "id": 47,
-    "title": "One Flew Over the Cuckoo's Nest",
-    "year": "1975",
-    "runtime": "133",
-    "genres": [
-      "Drama"
-    ],
-    "director": "Milos Forman",
-    "actors": "Michael Berryman, Peter Brocco, Dean R. Brooks, Alonzo Brown",
-    "plot": "A criminal pleads insanity after getting into trouble again and once in the mental institution rebels against the oppressive nurse and rallies up the scared patients.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BYmJkODkwOTItZThjZC00MTE0LWIxNzQtYTM3MmQwMGI1OWFiXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg"
-  },
-  {
-    "id": 48,
-    "title": "Requiem for a Dream",
-    "year": "2000",
-    "runtime": "102",
-    "genres": [
-      "Drama"
-    ],
-    "director": "Darren Aronofsky",
-    "actors": "Ellen Burstyn, Jared Leto, Jennifer Connelly, Marlon Wayans",
-    "plot": "The drug-induced utopias of four Coney Island people are shattered when their addictions run deep.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzODMzODYwOF5BMl5BanBnXkFtZTcwODM2NjA2NQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 49,
-    "title": "The Truman Show",
-    "year": "1998",
-    "runtime": "103",
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Sci-Fi"
-    ],
-    "director": "Peter Weir",
-    "actors": "Jim Carrey, Laura Linney, Noah Emmerich, Natascha McElhone",
-    "plot": "An insurance salesman/adjuster discovers his entire life is actually a television show.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
-  },
-  {
-    "id": 50,
-    "title": "The Artist",
-    "year": "2011",
-    "runtime": "100",
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Romance"
-    ],
-    "director": "Michel Hazanavicius",
-    "actors": "Jean Dujardin, Bérénice Bejo, John Goodman, James Cromwell",
-    "plot": "A silent movie star meets a young dancer, but the arrival of talking pictures sends their careers in opposite directions.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzk0NzQxMTM0OV5BMl5BanBnXkFtZTcwMzU4MDYyNQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 51,
-    "title": "Forrest Gump",
-    "year": "1994",
-    "runtime": "142",
-    "genres": [
-      "Comedy",
-      "Drama"
-    ],
-    "director": "Robert Zemeckis",
-    "actors": "Tom Hanks, Rebecca Williams, Sally Field, Michael Conner Humphreys",
-    "plot": "Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BYThjM2MwZGMtMzg3Ny00NGRkLWE4M2EtYTBiNWMzOTY0YTI4XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg"
-  },
-  {
-    "id": 52,
-    "title": "The Hobbit: The Desolation of Smaug",
-    "year": "2013",
-    "runtime": "161",
-    "genres": [
-      "Adventure",
-      "Fantasy"
-    ],
-    "director": "Peter Jackson",
-    "actors": "Ian McKellen, Martin Freeman, Richard Armitage, Ken Stott",
-    "plot": "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzU0NDY0NDEzNV5BMl5BanBnXkFtZTgwOTIxNDU1MDE@._V1_SX300.jpg"
-  },
-  {
-    "id": 53,
-    "title": "Vicky Cristina Barcelona",
-    "year": "2008",
-    "runtime": "96",
-    "genres": [
-      "Drama",
-      "Romance"
-    ],
-    "director": "Woody Allen",
-    "actors": "Rebecca Hall, Scarlett Johansson, Christopher Evan Welch, Chris Messina",
-    "plot": "Two girlfriends on a summer holiday in Spain become enamored with the same painter, unaware that his ex-wife, with whom he has a tempestuous relationship, is about to re-enter the picture.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2NDQ4MTg2MV5BMl5BanBnXkFtZTcwNDUzNjU3MQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 54,
-    "title": "Slumdog Millionaire",
-    "year": "2008",
-    "runtime": "120",
-    "genres": [
-      "Drama",
-      "Romance"
-    ],
-    "director": "Danny Boyle, Loveleen Tandan",
-    "actors": "Dev Patel, Saurabh Shukla, Anil Kapoor, Rajendranath Zutshi",
-    "plot": "A Mumbai teen reflects on his upbringing in the slums when he is accused of cheating on the Indian Version of \"Who Wants to be a Millionaire?\"",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTU2NTA5NzI0N15BMl5BanBnXkFtZTcwMjUxMjYxMg@@._V1_SX300.jpg"
-  },
-  {
-    "id": 55,
-    "title": "Lost in Translation",
-    "year": "2003",
-    "runtime": "101",
-    "genres": [
-      "Drama"
-    ],
-    "director": "Sofia Coppola",
-    "actors": "Scarlett Johansson, Bill Murray, Akiko Takeshita, Kazuyoshi Minamimagoe",
-    "plot": "A faded movie star and a neglected young woman form an unlikely bond after crossing paths in Tokyo.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI2NDI5ODk4N15BMl5BanBnXkFtZTYwMTI3NTE3._V1_SX300.jpg"
-  },
-  {
-    "id": 56,
-    "title": "Match Point",
-    "year": "2005",
-    "runtime": "119",
-    "genres": [
-      "Drama",
-      "Romance",
-      "Thriller"
-    ],
-    "director": "Woody Allen",
-    "actors": "Jonathan Rhys Meyers, Alexander Armstrong, Paul Kaye, Matthew Goode",
-    "plot": "At a turning point in his life, a former tennis pro falls for an actress who happens to be dating his friend and soon-to-be brother-in-law.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzNzY4MzE5NF5BMl5BanBnXkFtZTcwMzQ1MDMzMQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 57,
-    "title": "Psycho",
-    "year": "1960",
-    "runtime": "109",
-    "genres": [
-      "Horror",
-      "Mystery",
-      "Thriller"
-    ],
-    "director": "Alfred Hitchcock",
-    "actors": "Anthony Perkins, Vera Miles, John Gavin, Janet Leigh",
-    "plot": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMDI3OWRmOTEtOWJhYi00N2JkLTgwNGItMjdkN2U0NjFiZTYwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
-  },
-  {
-    "id": 58,
-    "title": "North by Northwest",
-    "year": "1959",
-    "runtime": "136",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Crime"
-    ],
-    "director": "Alfred Hitchcock",
-    "actors": "Cary Grant, Eva Marie Saint, James Mason, Jessie Royce Landis",
-    "plot": "A hapless New York advertising executive is mistaken for a government agent by a group of foreign spies, and is pursued across the country while he looks for a way to survive.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMjQwMTQ0MzgwNl5BMl5BanBnXkFtZTgwNjc4ODE4MzE@._V1_SX300.jpg"
-  },
-  {
-    "id": 59,
-    "title": "Madagascar: Escape 2 Africa",
-    "year": "2008",
-    "runtime": "89",
-    "genres": [
-      "Animation",
-      "Action",
-      "Adventure"
-    ],
-    "director": "Eric Darnell, Tom McGrath",
-    "actors": "Ben Stiller, Chris Rock, David Schwimmer, Jada Pinkett Smith",
-    "plot": "The animals try to fly back to New York City, but crash-land on an African wildlife refuge, where Alex is reunited with his parents.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjExMDA4NDcwMl5BMl5BanBnXkFtZTcwODAxNTQ3MQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 60,
-    "title": "Despicable Me 2",
-    "year": "2013",
-    "runtime": "98",
-    "genres": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "director": "Pierre Coffin, Chris Renaud",
-    "actors": "Steve Carell, Kristen Wiig, Benjamin Bratt, Miranda Cosgrove",
-    "plot": "When Gru, the world's most super-bad turned super-dad has been recruited by a team of officials to stop lethal muscle and a host of Gru's own, He has to fight back with new gadgetry, cars, and more minion madness.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjExNjAyNTcyMF5BMl5BanBnXkFtZTgwODQzMjQ3MDE@._V1_SX300.jpg"
-  },
-  {
-    "id": 61,
-    "title": "Downfall",
-    "year": "2004",
-    "runtime": "156",
-    "genres": [
-      "Biography",
-      "Drama",
-      "History"
-    ],
-    "director": "Oliver Hirschbiegel",
-    "actors": "Bruno Ganz, Alexandra Maria Lara, Corinna Harfouch, Ulrich Matthes",
-    "plot": "Traudl Junge, the final secretary for Adolf Hitler, tells of the Nazi dictator's final days in his Berlin bunker at the end of WWII.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM1OTI1MjE2Nl5BMl5BanBnXkFtZTcwMTEwMzc4NA@@._V1_SX300.jpg"
-  },
-  {
-    "id": 62,
-    "title": "Madagascar",
-    "year": "2005",
-    "runtime": "86",
-    "genres": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "director": "Eric Darnell, Tom McGrath",
-    "actors": "Ben Stiller, Chris Rock, David Schwimmer, Jada Pinkett Smith",
-    "plot": "Spoiled by their upbringing with no idea what wild life is really like, four animals from New York Central Zoo escape, unwittingly assisted by four absconding penguins, and find themselves in Madagascar, among a bunch of merry lemurs",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4NDUwMzQxMF5BMl5BanBnXkFtZTcwMDgwNjgyMQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 63,
-    "title": "Madagascar 3: Europe's Most Wanted",
-    "year": "2012",
-    "runtime": "93",
-    "genres": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "director": "Eric Darnell, Tom McGrath, Conrad Vernon",
-    "actors": "Ben Stiller, Chris Rock, David Schwimmer, Jada Pinkett Smith",
-    "plot": "Alex, Marty, Gloria and Melman are still fighting to get home to their beloved Big Apple. Their journey takes them through Europe where they find the perfect cover: a traveling circus, which they reinvent - Madagascar style.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM2MTIzNzk2MF5BMl5BanBnXkFtZTcwMDcwMzQxNw@@._V1_SX300.jpg"
-  },
-  {
-    "id": 64,
-    "title": "God Bless America",
-    "year": "2011",
-    "runtime": "105",
-    "genres": [
-      "Comedy",
-      "Crime"
-    ],
-    "director": "Bobcat Goldthwait",
-    "actors": "Joel Murray, Tara Lynne Barr, Melinda Page Hamilton, Mackenzie Brooke Smith",
-    "plot": "On a mission to rid society of its most repellent citizens, terminally ill Frank makes an unlikely accomplice in 16-year-old Roxy.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQwMTc1MzA4NF5BMl5BanBnXkFtZTcwNzQwMTgzNw@@._V1_SX300.jpg"
-  },
-  {
-    "id": 65,
-    "title": "The Social Network",
-    "year": "2010",
-    "runtime": "120",
-    "genres": [
-      "Biography",
-      "Drama"
-    ],
-    "director": "David Fincher",
-    "actors": "Jesse Eisenberg, Rooney Mara, Bryan Barter, Dustin Fitzsimons",
-    "plot": "Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, but is later sued by two brothers who claimed he stole their idea, and the co-founder who was later squeezed out of the business.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM2ODk0NDAwMF5BMl5BanBnXkFtZTcwNTM1MDc2Mw@@._V1_SX300.jpg"
-  },
-  {
-    "id": 66,
-    "title": "The Pianist",
-    "year": "2002",
-    "runtime": "150",
-    "genres": [
-      "Biography",
-      "Drama",
-      "War"
-    ],
-    "director": "Roman Polanski",
-    "actors": "Adrien Brody, Emilia Fox, Michal Zebrowski, Ed Stoppard",
-    "plot": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTc4OTkyOTA3OF5BMl5BanBnXkFtZTYwMDIxNjk5._V1_SX300.jpg"
-  },
-  {
-    "id": 67,
-    "title": "Alive",
-    "year": "1993",
-    "runtime": "120",
-    "genres": [
-      "Adventure",
-      "Biography",
-      "Drama"
-    ],
-    "director": "Frank Marshall",
-    "actors": "Ethan Hawke, Vincent Spano, Josh Hamilton, Bruce Ramsay",
-    "plot": "Uruguayan rugby team stranded in the snow swept Andes are forced to use desperate measures to survive after a plane crash.",
-    "posterUrl": ""
-  },
-  {
-    "id": 68,
-    "title": "Casablanca",
-    "year": "1942",
-    "runtime": "102",
-    "genres": [
-      "Drama",
-      "Romance",
-      "War"
-    ],
-    "director": "Michael Curtiz",
-    "actors": "Humphrey Bogart, Ingrid Bergman, Paul Henreid, Claude Rains",
-    "plot": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQwNDYyNTk2N15BMl5BanBnXkFtZTgwMjQ0OTMyMjE@._V1_SX300.jpg"
-  },
-  {
-    "id": 69,
-    "title": "American Gangster",
-    "year": "2007",
-    "runtime": "157",
-    "genres": [
-      "Biography",
-      "Crime",
-      "Drama"
-    ],
-    "director": "Ridley Scott",
-    "actors": "Denzel Washington, Russell Crowe, Chiwetel Ejiofor, Josh Brolin",
-    "plot": "In 1970s America, a detective works to bring down the drug empire of Frank Lucas, a heroin kingpin from Manhattan, who is smuggling the drug into the country from the Far East.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkyNzY5MDA5MV5BMl5BanBnXkFtZTcwMjg4MzI3MQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 70,
-    "title": "Catch Me If You Can",
-    "year": "2002",
-    "runtime": "141",
-    "genres": [
-      "Biography",
-      "Crime",
-      "Drama"
-    ],
-    "director": "Steven Spielberg",
-    "actors": "Leonardo DiCaprio, Tom Hanks, Christopher Walken, Martin Sheen",
-    "plot": "The true story of Frank Abagnale Jr. who, before his 19th birthday, successfully conned millions of dollars' worth of checks as a Pan Am pilot, doctor, and legal prosecutor.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5MzYzNjc5NV5BMl5BanBnXkFtZTYwNTUyNTc2._V1_SX300.jpg"
-  },
-  {
-    "id": 71,
-    "title": "American History X",
-    "year": "1998",
-    "runtime": "119",
-    "genres": [
-      "Crime",
-      "Drama"
-    ],
-    "director": "Tony Kaye",
-    "actors": "Edward Norton, Edward Furlong, Beverly D'Angelo, Jennifer Lien",
-    "plot": "A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BZjA0MTM4MTQtNzY5MC00NzY3LWI1ZTgtYzcxMjkyMzU4MDZiXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg"
-  },
-  {
-    "id": 72,
-    "title": "Casino",
-    "year": "1995",
-    "runtime": "178",
-    "genres": [
-      "Biography",
-      "Crime",
-      "Drama"
-    ],
-    "director": "Martin Scorsese",
-    "actors": "Robert De Niro, Sharon Stone, Joe Pesci, James Woods",
-    "plot": "Greed, deception, money, power, and murder occur between two best friends, a mafia underboss and a casino owner, for a trophy wife over a gambling empire.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTcxOWYzNDYtYmM4YS00N2NkLTk0NTAtNjg1ODgwZjAxYzI3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"
-  },
-  {
-    "id": 73,
-    "title": "Pirates of the Caribbean: At World's End",
-    "year": "2007",
-    "runtime": "169",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "director": "Gore Verbinski",
-    "actors": "Johnny Depp, Geoffrey Rush, Orlando Bloom, Keira Knightley",
-    "plot": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIyNjkxNzEyMl5BMl5BanBnXkFtZTYwMjc3MDE3._V1_SX300.jpg"
-  },
-  {
-    "id": 74,
-    "title": "Pirates of the Caribbean: On Stranger Tides",
-    "year": "2011",
-    "runtime": "136",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "director": "Rob Marshall",
-    "actors": "Johnny Depp, Penélope Cruz, Geoffrey Rush, Ian McShane",
-    "plot": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMjE5MjkwODI3Nl5BMl5BanBnXkFtZTcwNjcwMDk4NA@@._V1_SX300.jpg"
-  },
-  {
-    "id": 75,
-    "title": "Crash",
-    "year": "2004",
-    "runtime": "112",
-    "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
-    ],
-    "director": "Paul Haggis",
-    "actors": "Karina Arroyave, Dato Bakhtadze, Sandra Bullock, Don Cheadle",
-    "plot": "Los Angeles citizens with vastly separate lives collide in interweaving stories of race, loss and redemption.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTk1OTA1MjIyNV5BMl5BanBnXkFtZTcwODQxMTkyMQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 76,
-    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
-    "year": "2003",
-    "runtime": "143",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "director": "Gore Verbinski",
-    "actors": "Johnny Depp, Geoffrey Rush, Orlando Bloom, Keira Knightley",
-    "plot": "Blacksmith Will Turner teams up with eccentric pirate \"Captain\" Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAyNDM4MTc2N15BMl5BanBnXkFtZTYwNDk0Mjc3._V1_SX300.jpg"
-  },
-  {
-    "id": 77,
-    "title": "The Lord of the Rings: The Return of the King",
-    "year": "2003",
-    "runtime": "201",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Drama"
-    ],
-    "director": "Peter Jackson",
-    "actors": "Noel Appleby, Ali Astin, Sean Astin, David Aston",
-    "plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE4MjA1NTAyMV5BMl5BanBnXkFtZTcwNzM1NDQyMQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 78,
-    "title": "Oldboy",
-    "year": "2003",
-    "runtime": "120",
-    "genres": [
-      "Drama",
-      "Mystery",
-      "Thriller"
-    ],
-    "director": "Chan-wook Park",
-    "actors": "Min-sik Choi, Ji-tae Yu, Hye-jeong Kang, Dae-han Ji",
-    "plot": "After being kidnapped and imprisoned for 15 years, Oh Dae-Su is released, only to find that he must find his captor in 5 days.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 79,
-    "title": "Chocolat",
-    "year": "2000",
-    "runtime": "121",
-    "genres": [
-      "Drama",
-      "Romance"
-    ],
-    "director": "Lasse Hallström",
-    "actors": "Alfred Molina, Carrie-Anne Moss, Aurelien Parent Koenig, Antonio Gil",
-    "plot": "A woman and her daughter open a chocolate shop in a small French village that shakes up the rigid morality of the community.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4MDI3NTQwMV5BMl5BanBnXkFtZTcwNjIzNDcyMQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 80,
-    "title": "Casino Royale",
-    "year": "2006",
-    "runtime": "144",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Thriller"
-    ],
-    "director": "Martin Campbell",
-    "actors": "Daniel Craig, Eva Green, Mads Mikkelsen, Judi Dench",
-    "plot": "Armed with a licence to kill, Secret Agent James Bond sets out on his first mission as 007 and must defeat a weapons dealer in a high stakes game of poker at Casino Royale, but things are not what they seem.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM5MjI4NDExNF5BMl5BanBnXkFtZTcwMDM1MjMzMQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 81,
-    "title": "WALL·E",
-    "year": "2008",
-    "runtime": "98",
-    "genres": [
-      "Animation",
-      "Adventure",
-      "Family"
-    ],
-    "director": "Andrew Stanton",
-    "actors": "Ben Burtt, Elissa Knight, Jeff Garlin, Fred Willard",
-    "plot": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTczOTA3MzY2N15BMl5BanBnXkFtZTcwOTYwNjE2MQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 82,
-    "title": "The Wolf of Wall Street",
-    "year": "2013",
-    "runtime": "180",
-    "genres": [
-      "Biography",
-      "Comedy",
-      "Crime"
-    ],
-    "director": "Martin Scorsese",
-    "actors": "Leonardo DiCaprio, Jonah Hill, Margot Robbie, Matthew McConaughey",
-    "plot": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SX300.jpg"
-  },
-  {
-    "id": 83,
-    "title": "Hellboy II: The Golden Army",
-    "year": "2008",
-    "runtime": "120",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "director": "Guillermo del Toro",
-    "actors": "Ron Perlman, Selma Blair, Doug Jones, John Alexander",
-    "plot": "The mythical world starts a rebellion against humanity in order to rule the Earth, so Hellboy and his team must save the world from the rebellious creatures.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5NzgyMjc2Nl5BMl5BanBnXkFtZTcwOTU3MDI3MQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 84,
-    "title": "Sunset Boulevard",
-    "year": "1950",
-    "runtime": "110",
-    "genres": [
-      "Drama",
-      "Film-Noir",
-      "Romance"
-    ],
-    "director": "Billy Wilder",
-    "actors": "William Holden, Gloria Swanson, Erich von Stroheim, Nancy Olson",
-    "plot": "A hack screenwriter writes a screenplay for a former silent-film star who has faded into Hollywood obscurity.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTc3NDYzODAwNV5BMl5BanBnXkFtZTgwODg1MTczMTE@._V1_SX300.jpg"
-  },
-  {
-    "id": 85,
-    "title": "I-See-You.Com",
-    "year": "2006",
-    "runtime": "92",
-    "genres": [
-      "Comedy"
-    ],
-    "director": "Eric Steven Stahl",
-    "actors": "Beau Bridges, Rosanna Arquette, Mathew Botuchis, Shiri Appleby",
-    "plot": "A 17-year-old boy buys mini-cameras and displays the footage online at I-see-you.com. The cash rolls in as the site becomes a major hit. Everyone seems to have fun until it all comes crashing down....",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwMDUzNzA5Nl5BMl5BanBnXkFtZTcwMjQ2Njk3MQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 86,
-    "title": "The Grand Budapest Hotel",
-    "year": "2014",
-    "runtime": "99",
-    "genres": [
-      "Adventure",
-      "Comedy",
-      "Crime"
-    ],
-    "director": "Wes Anderson",
-    "actors": "Ralph Fiennes, F. Murray Abraham, Mathieu Amalric, Adrien Brody",
-    "plot": "The adventures of Gustave H, a legendary concierge at a famous hotel from the fictional Republic of Zubrowka between the first and second World Wars, and Zero Moustafa, the lobby boy who becomes his most trusted friend.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_SX300.jpg"
-  },
-  {
-    "id": 87,
-    "title": "The Hitchhiker's Guide to the Galaxy",
-    "year": "2005",
-    "runtime": "109",
-    "genres": [
-      "Adventure",
-      "Comedy",
-      "Sci-Fi"
-    ],
-    "director": "Garth Jennings",
-    "actors": "Bill Bailey, Anna Chancellor, Warwick Davis, Yasiin Bey",
-    "plot": "Mere seconds before the Earth is to be demolished by an alien construction crew, journeyman Arthur Dent is swept off the planet by his friend Ford Prefect, a researcher penning a new edition of \"The Hitchhiker's Guide to the Galaxy.\"",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMjEwOTk4NjU2MF5BMl5BanBnXkFtZTYwMDA3NzI3._V1_SX300.jpg"
-  },
-  {
-    "id": 88,
-    "title": "Once Upon a Time in America",
-    "year": "1984",
-    "runtime": "229",
-    "genres": [
-      "Crime",
-      "Drama"
-    ],
-    "director": "Sergio Leone",
-    "actors": "Robert De Niro, James Woods, Elizabeth McGovern, Joe Pesci",
-    "plot": "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMGFkNWI4MTMtNGQ0OC00MWVmLTk3MTktOGYxN2Y2YWVkZWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
-  },
-  {
-    "id": 89,
-    "title": "Oblivion",
-    "year": "2013",
-    "runtime": "124",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Mystery"
-    ],
-    "director": "Joseph Kosinski",
-    "actors": "Tom Cruise, Morgan Freeman, Olga Kurylenko, Andrea Riseborough",
-    "plot": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQwMDY0MTA4MF5BMl5BanBnXkFtZTcwNzI3MDgxOQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 90,
-    "title": "V for Vendetta",
-    "year": "2005",
-    "runtime": "132",
-    "genres": [
-      "Action",
-      "Drama",
-      "Thriller"
-    ],
-    "director": "James McTeigue",
-    "actors": "Natalie Portman, Hugo Weaving, Stephen Rea, Stephen Fry",
-    "plot": "In a future British tyranny, a shadowy freedom fighter, known only by the alias of \"V\", plots to overthrow it with the help of a young woman.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTI5ODc3NzExNV5BMl5BanBnXkFtZTcwNzYxNzQzMw@@._V1_SX300.jpg"
-  },
-  {
-    "id": 91,
-    "title": "Gattaca",
-    "year": "1997",
-    "runtime": "106",
-    "genres": [
-      "Drama",
-      "Sci-Fi",
-      "Thriller"
-    ],
-    "director": "Andrew Niccol",
-    "actors": "Ethan Hawke, Uma Thurman, Gore Vidal, Xander Berkeley",
-    "plot": "A genetically inferior man assumes the identity of a superior one in order to pursue his lifelong dream of space travel.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDQxOTc0MzMtZmRlOS00OWQ5LWI2ZDctOTAwNmMwOTYxYzlhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
-  },
-  {
-    "id": 92,
-    "title": "Silver Linings Playbook",
-    "year": "2012",
-    "runtime": "122",
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Romance"
-    ],
-    "director": "David O. Russell",
-    "actors": "Bradley Cooper, Jennifer Lawrence, Robert De Niro, Jacki Weaver",
-    "plot": "After a stint in a mental institution, former teacher Pat Solitano moves back in with his parents and tries to reconcile with his ex-wife. Things get more challenging when Pat meets Tiffany, a mysterious girl with problems of her own.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM2MTI5NzA3MF5BMl5BanBnXkFtZTcwODExNTc0OA@@._V1_SX300.jpg"
-  },
-  {
-    "id": 93,
-    "title": "Alice in Wonderland",
-    "year": "2010",
-    "runtime": "108",
-    "genres": [
-      "Adventure",
-      "Family",
-      "Fantasy"
-    ],
-    "director": "Tim Burton",
-    "actors": "Johnny Depp, Mia Wasikowska, Helena Bonham Carter, Anne Hathaway",
-    "plot": "Nineteen-year-old Alice returns to the magical world from her childhood adventure, where she reunites with her old friends and learns of her true destiny: to end the Red Queen's reign of terror.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMwNjAxMTc0Nl5BMl5BanBnXkFtZTcwODc3ODk5Mg@@._V1_SX300.jpg"
-  },
-  {
-    "id": 94,
-    "title": "Gandhi",
-    "year": "1982",
-    "runtime": "191",
-    "genres": [
-      "Biography",
-      "Drama"
-    ],
-    "director": "Richard Attenborough",
-    "actors": "Ben Kingsley, Candice Bergen, Edward Fox, John Gielgud",
-    "plot": "Gandhi's character is fully explained as a man of nonviolence. Through his patience, he is able to drive the British out of the subcontinent. And the stubborn nature of Jinnah and his commitment towards Pakistan is portrayed.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMzJiZDRmOWUtYjE2MS00Mjc1LTg1ZDYtNTQxYWJkZTg1OTM4XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg"
-  },
-  {
-    "id": 95,
-    "title": "Pacific Rim",
-    "year": "2013",
-    "runtime": "131",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "director": "Guillermo del Toro",
-    "actors": "Charlie Hunnam, Diego Klattenhoff, Idris Elba, Rinko Kikuchi",
-    "plot": "As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY3MTI5NjQ4Nl5BMl5BanBnXkFtZTcwOTU1OTU0OQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 96,
-    "title": "Kiss Kiss Bang Bang",
-    "year": "2005",
-    "runtime": "103",
-    "genres": [
-      "Comedy",
-      "Crime",
-      "Mystery"
-    ],
-    "director": "Shane Black",
-    "actors": "Robert Downey Jr., Val Kilmer, Michelle Monaghan, Corbin Bernsen",
-    "plot": "A murder mystery brings together a private eye, a struggling actress, and a thief masquerading as an actor.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTY5NDExMDA3M15BMl5BanBnXkFtZTYwNTc2MzA3._V1_SX300.jpg"
-  },
-  {
-    "id": 97,
-    "title": "The Quiet American",
-    "year": "2002",
-    "runtime": "101",
-    "genres": [
-      "Drama",
-      "Mystery",
-      "Romance"
-    ],
-    "director": "Phillip Noyce",
-    "actors": "Michael Caine, Brendan Fraser, Do Thi Hai Yen, Rade Serbedzija",
-    "plot": "An older British reporter vies with a young U.S. doctor for the affections of a beautiful Vietnamese woman.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMjE2NTUxNTE3Nl5BMl5BanBnXkFtZTYwNTczMTg5._V1_SX300.jpg"
-  },
-  {
-    "id": 98,
-    "title": "Cloud Atlas",
-    "year": "2012",
-    "runtime": "172",
-    "genres": [
-      "Drama",
-      "Sci-Fi"
-    ],
-    "director": "Tom Tykwer, Lana Wachowski, Lilly Wachowski",
-    "actors": "Tom Hanks, Halle Berry, Jim Broadbent, Hugo Weaving",
-    "plot": "An exploration of how the actions of individual lives impact one another in the past, present and future, as one soul is shaped from a killer into a hero, and an act of kindness ripples across centuries to inspire a revolution.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTczMTgxMjc4NF5BMl5BanBnXkFtZTcwNjM5MTA2OA@@._V1_SX300.jpg"
-  },
-  {
-    "id": 99,
-    "title": "The Impossible",
-    "year": "2012",
-    "runtime": "114",
-    "genres": [
-      "Drama",
-      "Thriller"
-    ],
-    "director": "J.A. Bayona",
-    "actors": "Naomi Watts, Ewan McGregor, Tom Holland, Samuel Joslin",
-    "plot": "The story of a tourist family in Thailand caught in the destruction and chaotic aftermath of the 2004 Indian Ocean tsunami.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5NTA3NzQ5Nl5BMl5BanBnXkFtZTcwOTYxNjY0OA@@._V1_SX300.jpg"
-  },
-  {
-    "id": 100,
-    "title": "All Quiet on the Western Front",
-    "year": "1930",
-    "runtime": "136",
-    "genres": [
-      "Drama",
-      "War"
-    ],
-    "director": "Lewis Milestone",
-    "actors": "Louis Wolheim, Lew Ayres, John Wray, Arnold Lucy",
-    "plot": "A young soldier faces profound disillusionment in the soul-destroying horror of World War I.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTM5OTg2NDY1NF5BMl5BanBnXkFtZTcwNTQ4MTMwNw@@._V1_SX300.jpg"
-  },
-  {
-    "id": 101,
-    "title": "The English Patient",
-    "year": "1996",
-    "runtime": "162",
-    "genres": [
-      "Drama",
-      "Romance",
-      "War"
-    ],
-    "director": "Anthony Minghella",
-    "actors": "Ralph Fiennes, Juliette Binoche, Willem Dafoe, Kristin Scott Thomas",
-    "plot": "At the close of WWII, a young nurse tends to a badly-burned plane crash victim. His past is shown in flashbacks, revealing an involvement in a fateful love affair.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDg2OTcxNDE0OF5BMl5BanBnXkFtZTgwOTg2MDM0MDE@._V1_SX300.jpg"
-  },
-  {
-    "id": 102,
-    "title": "Dallas Buyers Club",
-    "year": "2013",
-    "runtime": "117",
-    "genres": [
-      "Biography",
-      "Drama"
-    ],
-    "director": "Jean-Marc Vallée",
-    "actors": "Matthew McConaughey, Jennifer Garner, Jared Leto, Denis O'Hare",
-    "plot": "In 1985 Dallas, electrician and hustler Ron Woodroof works around the system to help AIDS patients get the medication they need after he is diagnosed with the disease.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwMTA4MzgyNF5BMl5BanBnXkFtZTgwMjEyMjE0MDE@._V1_SX300.jpg"
-  },
-  {
-    "id": 103,
-    "title": "Frida",
-    "year": "2002",
-    "runtime": "123",
-    "genres": [
-      "Biography",
-      "Drama",
-      "Romance"
-    ],
-    "director": "Julie Taymor",
-    "actors": "Salma Hayek, Mía Maestro, Alfred Molina, Antonio Banderas",
-    "plot": "A biography of artist Frida Kahlo, who channeled the pain of a crippling injury and her tempestuous marriage into her work.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTMyODUyMDY1OV5BMl5BanBnXkFtZTYwMDA2OTU3._V1_SX300.jpg"
-  },
-  {
-    "id": 104,
-    "title": "Before Sunrise",
-    "year": "1995",
-    "runtime": "105",
-    "genres": [
-      "Drama",
-      "Romance"
-    ],
-    "director": "Richard Linklater",
-    "actors": "Ethan Hawke, Julie Delpy, Andrea Eckert, Hanno Pöschl",
-    "plot": "A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna. Unfortunately, both know that this will probably be their only night together.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQyMTM3MTQxMl5BMl5BanBnXkFtZTcwMDAzNjQ4Mg@@._V1_SX300.jpg"
-  },
-  {
-    "id": 105,
-    "title": "The Rum Diary",
-    "year": "2011",
-    "runtime": "120",
-    "genres": [
-      "Comedy",
-      "Drama"
-    ],
-    "director": "Bruce Robinson",
-    "actors": "Johnny Depp, Aaron Eckhart, Michael Rispoli, Amber Heard",
-    "plot": "American journalist Paul Kemp takes on a freelance job in Puerto Rico for a local newspaper during the 1960s and struggles to find a balance between island culture and the expatriates who live there.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM5ODA4MjYxM15BMl5BanBnXkFtZTcwMTM3NTE5Ng@@._V1_SX300.jpg"
-  },
-  {
-    "id": 106,
-    "title": "The Last Samurai",
-    "year": "2003",
-    "runtime": "154",
-    "genres": [
-      "Action",
-      "Drama",
-      "History"
-    ],
-    "director": "Edward Zwick",
-    "actors": "Ken Watanabe, Tom Cruise, William Atherton, Chad Lindberg",
-    "plot": "An American military advisor embraces the Samurai culture he was hired to destroy after he is captured in battle.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMzkyNzQ1Mzc0NV5BMl5BanBnXkFtZTcwODg3MzUzMw@@._V1_SX300.jpg"
-  },
-  {
-    "id": 107,
-    "title": "Chinatown",
-    "year": "1974",
-    "runtime": "130",
-    "genres": [
-      "Drama",
-      "Mystery",
-      "Thriller"
-    ],
-    "director": "Roman Polanski",
-    "actors": "Jack Nicholson, Faye Dunaway, John Huston, Perry Lopez",
-    "plot": "A private detective hired to expose an adulterer finds himself caught up in a web of deceit, corruption and murder.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyNDE5NzItMjAwNC00MGQxLTllNjktZGIzMWFkZjA3OWQ0XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
-  },
-  {
-    "id": 108,
-    "title": "Calvary",
-    "year": "2014",
-    "runtime": "102",
-    "genres": [
-      "Comedy",
-      "Drama"
-    ],
-    "director": "John Michael McDonagh",
-    "actors": "Brendan Gleeson, Chris O'Dowd, Kelly Reilly, Aidan Gillen",
-    "plot": "After he is threatened during a confession, a good-natured priest must battle the dark forces closing in around him.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc3MjQ1MjE2M15BMl5BanBnXkFtZTgwNTMzNjE4MTE@._V1_SX300.jpg"
-  },
-  {
-    "id": 109,
-    "title": "Before Sunset",
-    "year": "2004",
-    "runtime": "80",
-    "genres": [
-      "Drama",
-      "Romance"
-    ],
-    "director": "Richard Linklater",
-    "actors": "Ethan Hawke, Julie Delpy, Vernon Dobtcheff, Louise Lemoine Torrès",
-    "plot": "Nine years after Jesse and Celine first met, they encounter each other again on the French leg of Jesse's book tour.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTQ1MjAwNTM5Ml5BMl5BanBnXkFtZTYwNDM0MTc3._V1_SX300.jpg"
-  },
-  {
-    "id": 110,
-    "title": "Spirited Away",
-    "year": "2001",
-    "runtime": "125",
-    "genres": [
-      "Animation",
-      "Adventure",
-      "Family"
-    ],
-    "director": "Hayao Miyazaki",
-    "actors": "Rumi Hiiragi, Miyu Irino, Mari Natsuki, Takashi Naitô",
-    "plot": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjYxMDcyMzIzNl5BMl5BanBnXkFtZTYwNDg2MDU3._V1_SX300.jpg"
-  },
-  {
-    "id": 111,
-    "title": "Indochine",
-    "year": "1992",
-    "runtime": "159",
-    "genres": [
-      "Drama",
-      "Romance"
-    ],
-    "director": "Régis Wargnier",
-    "actors": "Catherine Deneuve, Vincent Perez, Linh Dan Pham, Jean Yanne",
-    "plot": "This story is set in 1930, at the time when French colonial rule in Indochina is ending. A widowed French woman who works in the rubber fields, raises a Vietnamese princess as if she was ...",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM1MTkzNzA3NF5BMl5BanBnXkFtZTYwNTI2MzU5._V1_SX300.jpg"
-  },
-  {
-    "id": 112,
-    "title": "Birdman or (The Unexpected Virtue of Ignorance)",
-    "year": "2014",
-    "runtime": "119",
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Romance"
-    ],
-    "director": "Alejandro G. Iñárritu",
-    "actors": "Michael Keaton, Emma Stone, Kenny Chin, Jamahl Garrison-Lowe",
-    "plot": "Illustrated upon the progress of his latest Broadway play, a former popular actor's struggle to cope with his current life as a wasted actor is shown.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODAzNDMxMzAxOV5BMl5BanBnXkFtZTgwMDMxMjA4MjE@._V1_SX300.jpg"
-  },
-  {
-    "id": 113,
-    "title": "Boyhood",
-    "year": "2014",
-    "runtime": "165",
-    "genres": [
-      "Drama"
-    ],
-    "director": "Richard Linklater",
-    "actors": "Ellar Coltrane, Patricia Arquette, Elijah Smith, Lorelei Linklater",
-    "plot": "The life of Mason, from early childhood to his arrival at college.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzNDc2MDc0N15BMl5BanBnXkFtZTgwOTcwMDQ5MTE@._V1_SX300.jpg"
-  },
-  {
-    "id": 114,
-    "title": "12 Angry Men",
-    "year": "1957",
-    "runtime": "96",
-    "genres": [
-      "Crime",
-      "Drama"
-    ],
-    "director": "Sidney Lumet",
-    "actors": "Martin Balsam, John Fiedler, Lee J. Cobb, E.G. Marshall",
-    "plot": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODQwOTc5MDM2N15BMl5BanBnXkFtZTcwODQxNTEzNA@@._V1_SX300.jpg"
-  },
-  {
-    "id": 115,
-    "title": "The Imitation Game",
-    "year": "2014",
-    "runtime": "114",
-    "genres": [
-      "Biography",
-      "Drama",
-      "Thriller"
-    ],
-    "director": "Morten Tyldum",
-    "actors": "Benedict Cumberbatch, Keira Knightley, Matthew Goode, Rory Kinnear",
-    "plot": "During World War II, mathematician Alan Turing tries to crack the enigma code with help from fellow mathematicians.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDkwNTEyMzkzNl5BMl5BanBnXkFtZTgwNTAwNzk3MjE@._V1_SX300.jpg"
-  },
-  {
-    "id": 116,
-    "title": "Interstellar",
-    "year": "2014",
-    "runtime": "169",
-    "genres": [
-      "Adventure",
-      "Drama",
-      "Sci-Fi"
-    ],
-    "director": "Christopher Nolan",
-    "actors": "Ellen Burstyn, Matthew McConaughey, Mackenzie Foy, John Lithgow",
-    "plot": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1_SX300.jpg"
-  },
-  {
-    "id": 117,
-    "title": "Big Nothing",
-    "year": "2006",
-    "runtime": "86",
-    "genres": [
-      "Comedy",
-      "Crime",
-      "Thriller"
-    ],
-    "director": "Jean-Baptiste Andrea",
-    "actors": "David Schwimmer, Simon Pegg, Alice Eve, Natascha McElhone",
-    "plot": "A frustrated, unemployed teacher joining forces with a scammer and his girlfriend in a blackmailing scheme.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5NTc2NjYwOV5BMl5BanBnXkFtZTcwMzk5OTY0MQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 118,
-    "title": "Das Boot",
-    "year": "1981",
-    "runtime": "149",
-    "genres": [
-      "Adventure",
-      "Drama",
-      "Thriller"
-    ],
-    "director": "Wolfgang Petersen",
-    "actors": "Jürgen Prochnow, Herbert Grönemeyer, Klaus Wennemann, Hubertus Bengsch",
-    "plot": "The claustrophobic world of a WWII German U-boat; boredom, filth, and sheer terror.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE5Mzk5OTQ0Nl5BMl5BanBnXkFtZTYwNzUwMTQ5._V1_SX300.jpg"
-  },
-  {
-    "id": 119,
-    "title": "Shrek 2",
-    "year": "2004",
-    "runtime": "93",
-    "genres": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "director": "Andrew Adamson, Kelly Asbury, Conrad Vernon",
-    "actors": "Mike Myers, Eddie Murphy, Cameron Diaz, Julie Andrews",
-    "plot": "Princess Fiona's parents invite her and Shrek to dinner to celebrate her marriage. If only they knew the newlyweds were both ogres.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk4MTMwNjI4M15BMl5BanBnXkFtZTcwMjExMzUyMQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 120,
-    "title": "Sin City",
-    "year": "2005",
-    "runtime": "124",
-    "genres": [
-      "Crime",
-      "Thriller"
-    ],
-    "director": "Frank Miller, Robert Rodriguez, Quentin Tarantino",
-    "actors": "Jessica Alba, Devon Aoki, Alexis Bledel, Powers Boothe",
-    "plot": "A film that explores the dark and miserable town, Basin City, and tells the story of three different people, all caught up in violent corruption.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODZmYjMwNzEtNzVhNC00ZTRmLTk2M2UtNzE1MTQ2ZDAxNjc2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
-  },
-  {
-    "id": 121,
-    "title": "Nebraska",
-    "year": "2013",
-    "runtime": "115",
-    "genres": [
-      "Adventure",
-      "Comedy",
-      "Drama"
-    ],
-    "director": "Alexander Payne",
-    "actors": "Bruce Dern, Will Forte, June Squibb, Bob Odenkirk",
-    "plot": "An aging, booze-addled father makes the trip from Montana to Nebraska with his estranged son in order to claim a million-dollar Mega Sweepstakes Marketing prize.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2Mjk2NDkyMl5BMl5BanBnXkFtZTgwNTk0NzcyMDE@._V1_SX300.jpg"
-  },
-  {
-    "id": 122,
-    "title": "Shrek",
-    "year": "2001",
-    "runtime": "90",
-    "genres": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "director": "Andrew Adamson, Vicky Jenson",
-    "actors": "Mike Myers, Eddie Murphy, Cameron Diaz, John Lithgow",
-    "plot": "After his swamp is filled with magical creatures, an ogre agrees to rescue a princess for a villainous lord in order to get his land back.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk2NTE1NTE0M15BMl5BanBnXkFtZTgwNjY4NTYxMTE@._V1_SX300.jpg"
-  },
-  {
-    "id": 123,
-    "title": "Mr. & Mrs. Smith",
-    "year": "2005",
-    "runtime": "120",
-    "genres": [
-      "Action",
-      "Comedy",
-      "Crime"
-    ],
-    "director": "Doug Liman",
-    "actors": "Brad Pitt, Angelina Jolie, Vince Vaughn, Adam Brody",
-    "plot": "A bored married couple is surprised to learn that they are both assassins hired by competing agencies to kill each other.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUxMzcxNzQzOF5BMl5BanBnXkFtZTcwMzQxNjUyMw@@._V1_SX300.jpg"
-  },
-  {
-    "id": 124,
-    "title": "Original Sin",
-    "year": "2001",
-    "runtime": "116",
-    "genres": [
-      "Drama",
-      "Mystery",
-      "Romance"
-    ],
-    "director": "Michael Cristofer",
-    "actors": "Antonio Banderas, Angelina Jolie, Thomas Jane, Jack Thompson",
-    "plot": "A woman along with her lover, plan to con a rich man by marrying him and on earning his trust running away with all his money. Everything goes as planned until she actually begins to fall in love with him.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODg3Mjg0MDY4M15BMl5BanBnXkFtZTcwNjY5MDQ2NA@@._V1_SX300.jpg"
-  },
-  {
-    "id": 125,
-    "title": "Shrek Forever After",
-    "year": "2010",
-    "runtime": "93",
-    "genres": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "director": "Mike Mitchell",
-    "actors": "Mike Myers, Eddie Murphy, Cameron Diaz, Antonio Banderas",
-    "plot": "Rumpelstiltskin tricks a mid-life crisis burdened Shrek into allowing himself to be erased from existence and cast in a dark alternate timeline where Rumpel rules supreme.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTY0OTU1NzkxMl5BMl5BanBnXkFtZTcwMzI2NDUzMw@@._V1_SX300.jpg"
-  },
-  {
-    "id": 126,
-    "title": "Before Midnight",
-    "year": "2013",
-    "runtime": "109",
-    "genres": [
-      "Drama",
-      "Romance"
-    ],
-    "director": "Richard Linklater",
-    "actors": "Ethan Hawke, Julie Delpy, Seamus Davey-Fitzpatrick, Jennifer Prior",
-    "plot": "We meet Jesse and Celine nine years on in Greece. Almost two decades have passed since their first meeting on that train bound for Vienna.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMjA5NzgxODE2NF5BMl5BanBnXkFtZTcwNTI1NTI0OQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 127,
-    "title": "Despicable Me",
-    "year": "2010",
-    "runtime": "95",
-    "genres": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "director": "Pierre Coffin, Chris Renaud",
-    "actors": "Steve Carell, Jason Segel, Russell Brand, Julie Andrews",
-    "plot": "When a criminal mastermind uses a trio of orphan girls as pawns for a grand scheme, he finds their love is profoundly changing him for the better.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY3NjY0MTQ0Nl5BMl5BanBnXkFtZTcwMzQ2MTc0Mw@@._V1_SX300.jpg"
-  },
-  {
-    "id": 128,
-    "title": "Troy",
-    "year": "2004",
-    "runtime": "163",
-    "genres": [
-      "Adventure"
-    ],
-    "director": "Wolfgang Petersen",
-    "actors": "Julian Glover, Brian Cox, Nathan Jones, Adoni Maropis",
-    "plot": "An adaptation of Homer's great epic, the film follows the assault on Troy by the united Greek forces and chronicles the fates of the men involved.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTk5MzU1MDMwMF5BMl5BanBnXkFtZTcwNjczODMzMw@@._V1_SX300.jpg"
-  },
-  {
     "id": 129,
-    "title": "The Hobbit: An Unexpected Journey",
-    "year": "2012",
-    "runtime": "169",
-    "genres": [
-      "Adventure",
-      "Fantasy"
-    ],
-    "director": "Peter Jackson",
-    "actors": "Ian McKellen, Martin Freeman, Richard Armitage, Ken Stott",
-    "plot": "A reluctant hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home - and the gold within it - from the dragon Smaug.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_SX300.jpg"
+    "original_language": "ja",
+    "original_title": "千と千尋の神隠し",
+    "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+    "popularity": 68.066,
+    "poster_path": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+    "release_date": "2001-07-20",
+    "title": "Spirited Away",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 11934
   },
   {
-    "id": 130,
-    "title": "The Great Gatsby",
-    "year": "2013",
-    "runtime": "143",
-    "genres": [
-      "Drama",
-      "Romance"
+    "adult": false,
+    "backdrop_path": "/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
+    "genre_ids": [
+      35,
+      53,
+      18
     ],
-    "director": "Baz Luhrmann",
-    "actors": "Lisa Adam, Frank Aldridge, Amitabh Bachchan, Steve Bisley",
-    "plot": "A writer and wall street trader, Nick, finds himself drawn to the past and lifestyle of his millionaire neighbor, Jay Gatsby.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxNTk1ODcxNl5BMl5BanBnXkFtZTcwMDI1OTMzOQ@@._V1_SX300.jpg"
+    "id": 496243,
+    "original_language": "ko",
+    "original_title": "기생충",
+    "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+    "popularity": 100.368,
+    "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    "release_date": "2019-05-30",
+    "title": "Parasite",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 12325
   },
   {
-    "id": 131,
-    "title": "Ice Age",
-    "year": "2002",
-    "runtime": "81",
-    "genres": [
-      "Animation",
-      "Adventure",
-      "Comedy"
+    "adult": false,
+    "backdrop_path": "/lQAe1hfWYDdYypRVdzTbdg6JYWP.jpg",
+    "genre_ids": [
+      18
     ],
-    "director": "Chris Wedge, Carlos Saldanha",
-    "actors": "Ray Romano, John Leguizamo, Denis Leary, Goran Visnjic",
-    "plot": "Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyNzI1ODA0MF5BMl5BanBnXkFtZTYwODIxODY3._V1_SX300.jpg"
+    "id": 526702,
+    "original_language": "en",
+    "original_title": "Black Beauty",
+    "overview": "Born free in the American West, Black Beauty is a horse rounded up and brought to Birtwick Stables, where she meets spirited teenager Jo Green. The two forge a bond that carries Beauty through the different chapters, challenges and adventures.",
+    "popularity": 11.308,
+    "poster_path": "/5ZjMNJJabwBEnGVQoR2yoMEL9um.jpg",
+    "release_date": "2020-11-27",
+    "title": "Black Beauty",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 223
   },
   {
-    "id": 132,
-    "title": "The Lord of the Rings: The Fellowship of the Ring",
-    "year": "2001",
-    "runtime": "178",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Drama"
+    "adult": false,
+    "backdrop_path": "/l6hQWH9eDksNJNiXWYRkWqikOdu.jpg",
+    "genre_ids": [
+      14,
+      18,
+      80
     ],
-    "director": "Peter Jackson",
-    "actors": "Alan Howard, Noel Appleby, Sean Astin, Sala Baker",
-    "plot": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle Earth from the Dark Lord Sauron.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTEyMjAwMDU1OV5BMl5BanBnXkFtZTcwNDQyNTkxMw@@._V1_SX300.jpg"
+    "id": 497,
+    "original_language": "en",
+    "original_title": "The Green Mile",
+    "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
+    "popularity": 76.758,
+    "poster_path": "/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+    "release_date": "1999-12-10",
+    "title": "The Green Mile",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 12912
   },
   {
-    "id": 133,
-    "title": "The Lord of the Rings: The Two Towers",
-    "year": "2002",
-    "runtime": "179",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Drama"
+    "adult": false,
+    "backdrop_path": "/yHtB4KHNigx3ZoxDvQbW2SOXGfq.jpg",
+    "genre_ids": [
+      16,
+      10751,
+      12,
+      14
     ],
-    "director": "Peter Jackson",
-    "actors": "Bruce Allpress, Sean Astin, John Bach, Sala Baker",
-    "plot": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTAyNDU0NjY4NTheQTJeQWpwZ15BbWU2MDk4MTY2Nw@@._V1_SX300.jpg"
+    "id": 441130,
+    "original_language": "en",
+    "original_title": "Wolfwalkers",
+    "overview": "In a time of superstition and magic, when wolves are seen as demonic and nature an evil to be tamed, a young apprentice hunter comes to Ireland with her father to wipe out the last pack. But when she saves a wild native girl, their friendship leads her to discover the world of the Wolfwalkers and transform her into the very thing her father is tasked to destroy.",
+    "popularity": 22.08,
+    "poster_path": "/ehAKuE48okTuonq6TpsNQj8vFTC.jpg",
+    "release_date": "2020-10-26",
+    "title": "Wolfwalkers",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 585
   },
   {
-    "id": 134,
-    "title": "Ex Machina",
-    "year": "2015",
-    "runtime": "108",
-    "genres": [
-      "Drama",
-      "Mystery",
-      "Sci-Fi"
+    "adult": false,
+    "backdrop_path": "/qqHQsStV6exghCM7zbObuYBiYxw.jpg",
+    "genre_ids": [
+      18
     ],
-    "director": "Alex Garland",
-    "actors": "Domhnall Gleeson, Corey Johnson, Oscar Isaac, Alicia Vikander",
-    "plot": "A young programmer is selected to participate in a ground-breaking experiment in synthetic intelligence by evaluating the human qualities of a breath-taking humanoid A.I.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUxNzc0OTIxMV5BMl5BanBnXkFtZTgwNDI3NzU2NDE@._V1_SX300.jpg"
+    "id": 389,
+    "original_language": "en",
+    "original_title": "12 Angry Men",
+    "overview": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
+    "popularity": 24.123,
+    "poster_path": "/e02s4wmTAExkKg0yF4dEG98ZRpK.jpg",
+    "release_date": "1957-04-10",
+    "title": "12 Angry Men",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 5901
   },
   {
-    "id": 135,
-    "title": "The Theory of Everything",
-    "year": "2014",
-    "runtime": "123",
-    "genres": [
-      "Biography",
-      "Drama",
-      "Romance"
+    "adult": false,
+    "backdrop_path": "/1fOsyhVz5qyX2rl1qqX6KImVhTx.jpg",
+    "genre_ids": [
+      18,
+      35
     ],
-    "director": "James Marsh",
-    "actors": "Eddie Redmayne, Felicity Jones, Tom Prior, Sophie Perry",
-    "plot": "A look at the relationship between the famous physicist Stephen Hawking and his wife.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTAwMTU4MDA3NDNeQTJeQWpwZ15BbWU4MDk4NTMxNTIx._V1_SX300.jpg"
+    "id": 644479,
+    "original_language": "es",
+    "original_title": "Dedicada a mi ex",
+    "overview": "The film tells the story of Ariel, a 21-year-old who decides to form a rock band to compete for a prize of ten thousand dollars in a musical band contest, this as a last option when trying to get money to save their relationship and reunite with his ex-girlfriend, which breaks due to the trip she must make to Finland for an internship. Ariel with her friend Ortega, decides to make a casting to find the other members of the band, although they do not know nothing about music, thus forming a band with members that have diverse and opposite personalities.",
+    "popularity": 25.105,
+    "poster_path": "/xc4bTXVwYNXi10jG9dwcaYt5IpU.jpg",
+    "release_date": "2019-11-01",
+    "title": "Dedicated to my ex",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 418
   },
   {
-    "id": 136,
-    "title": "Shogun",
-    "year": "1980",
-    "runtime": "60",
-    "genres": [
-      "Adventure",
-      "Drama",
-      "History"
+    "adult": false,
+    "backdrop_path": "/9guoVF7zayiiUq5ulKQpt375VIy.jpg",
+    "genre_ids": [
+      16,
+      28,
+      14,
+      12
     ],
-    "director": "N/A",
-    "actors": "Richard Chamberlain, Toshirô Mifune, Yôko Shimada, Furankî Sakai",
-    "plot": "A English navigator becomes both a player and pawn in the complex political games in feudal Japan.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY1ODI4NzYxMl5BMl5BanBnXkFtZTcwNDA4MzUxMQ@@._V1_SX300.jpg"
+    "id": 592350,
+    "original_language": "ja",
+    "original_title": "僕のヒーローアカデミア THE MOVIE ヒーローズ：ライジング",
+    "overview": "Class 1-A visits Nabu Island where they finally get to do some real hero work. The place is so peaceful that it's more like a vacation … until they're attacked by a villain with an unfathomable Quirk! His power is eerily familiar, and it looks like Shigaraki had a hand in the plan. But with All Might retired and citizens' lives on the line, there's no time for questions. Deku and his friends are the next generation of heroes, and they're the island's only hope.",
+    "popularity": 311.132,
+    "poster_path": "/zGVbrulkupqpbwgiNedkJPyQum4.jpg",
+    "release_date": "2019-12-20",
+    "title": "My Hero Academia: Heroes Rising",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 809
   },
   {
-    "id": 137,
-    "title": "Spotlight",
-    "year": "2015",
-    "runtime": "128",
-    "genres": [
-      "Biography",
-      "Crime",
-      "Drama"
+    "adult": false,
+    "backdrop_path": "/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+    "genre_ids": [
+      53,
+      80
     ],
-    "director": "Tom McCarthy",
-    "actors": "Mark Ruffalo, Michael Keaton, Rachel McAdams, Liev Schreiber",
-    "plot": "The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIyOTM5OTIzNV5BMl5BanBnXkFtZTgwMDkzODE2NjE@._V1_SX300.jpg"
+    "id": 680,
+    "original_language": "en",
+    "original_title": "Pulp Fiction",
+    "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+    "popularity": 50.253,
+    "poster_path": "/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+    "release_date": "1994-09-10",
+    "title": "Pulp Fiction",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 21922
   },
   {
-    "id": 138,
-    "title": "Vertigo",
-    "year": "1958",
-    "runtime": "128",
-    "genres": [
-      "Mystery",
-      "Romance",
-      "Thriller"
+    "adult": false,
+    "backdrop_path": "/nMKdUUepR0i5zn0y1T4CsSB5chy.jpg",
+    "genre_ids": [
+      18,
+      28,
+      80,
+      53
     ],
-    "director": "Alfred Hitchcock",
-    "actors": "James Stewart, Kim Novak, Barbara Bel Geddes, Tom Helmore",
-    "plot": "A San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BNzY0NzQyNzQzOF5BMl5BanBnXkFtZTcwMTgwNTk4OQ@@._V1_SX300.jpg"
+    "id": 155,
+    "original_language": "en",
+    "original_title": "The Dark Knight",
+    "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+    "popularity": 66.044,
+    "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "release_date": "2008-07-14",
+    "title": "The Dark Knight",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 26004
   },
   {
-    "id": 139,
+    "adult": false,
+    "backdrop_path": "/alQqTpmEkxSLgajfEYTsTH6nAKB.jpg",
+    "genre_ids": [
+      12,
+      35
+    ],
+    "id": 40096,
+    "original_language": "pt",
+    "original_title": "O Auto da Compadecida",
+    "overview": "The lively Jack the Cricket and the sly Chicó are poor guys living in the hinterland who cheat a bunch of people in a small in Northeastern Brazil. When they die, they have to be judged by Christ, the Devil and the Virgin Mary before they are admitted to paradise.",
+    "popularity": 8.409,
+    "poster_path": "/m8eFedsS7vQCZCS8WGp5n1bVD0q.jpg",
+    "release_date": "2000-09-15",
+    "title": "A Dog's Will",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 815
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/lXhgCODAbBXL5buk9yEmTpOoOgR.jpg",
+    "genre_ids": [
+      12,
+      14,
+      28
+    ],
+    "id": 122,
+    "original_language": "en",
+    "original_title": "The Lord of the Rings: The Return of the King",
+    "overview": "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron's forces. Meanwhile, Frodo and Sam take the ring closer to the heart of Mordor, the dark lord's realm.",
+    "popularity": 78.82,
+    "poster_path": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+    "release_date": "2003-12-01",
+    "title": "The Lord of the Rings: The Return of the King",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 18429
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/5MgMCnslrxQfOfaq6T5ndkLlcCk.jpg",
+    "genre_ids": [
+      16,
+      35,
+      10749,
+      18,
+      14
+    ],
+    "id": 572154,
+    "original_language": "ja",
+    "original_title": "青春ブタ野郎はゆめみる少女の夢を見ない",
+    "overview": "In Fujisawa, Sakuta Azusagawa is in his second year of high school. Blissful days with his girlfriend and upperclassman, Mai Sakurajima, are interrupted by the appearance of his first crush, Shoko Makinohara.",
+    "popularity": 157.702,
+    "poster_path": "/pvdBzHOWjrLl69lUswPiVnI8szv.jpg",
+    "release_date": "2019-06-15",
+    "title": "Rascal Does Not Dream of a Dreaming Girl",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 312
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/qdIMHd4sEfJSckfVJfKQvisL02a.jpg",
+    "genre_ids": [
+      35,
+      18,
+      10749
+    ],
+    "id": 13,
+    "original_language": "en",
+    "original_title": "Forrest Gump",
+    "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
+    "popularity": 46.141,
+    "poster_path": "/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+    "release_date": "1994-07-06",
+    "title": "Forrest Gump",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 21403
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/xnFmcq40R0umHHLXTpvOW5GTdMh.jpg",
+    "genre_ids": [
+      37
+    ],
+    "id": 429,
+    "original_language": "it",
+    "original_title": "Il buono, il brutto, il cattivo",
+    "overview": "While the Civil War rages between the Union and the Confederacy, three men – a quiet loner, a ruthless hit man and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
+    "popularity": 29.006,
+    "poster_path": "/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg",
+    "release_date": "1966-12-23",
+    "title": "The Good, the Bad and the Ugly",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 6176
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/gavyCu1UaTaTNPsVaGXT6pe5u24.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "id": 637,
+    "original_language": "it",
+    "original_title": "La vita è bella",
+    "overview": "A touching story of an Italian book seller of Jewish ancestry who lives in his own little fairy tale. His creative and happy life would come to an abrupt halt when his entire family is deported to a concentration camp during World War II. While locked up he tries to convince his son that the whole thing is just a game.",
+    "popularity": 33.363,
+    "poster_path": "/74hLDKjD5aGYOotO6esUVaeISa2.jpg",
+    "release_date": "1997-12-20",
+    "title": "Life Is Beautiful",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 10516
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/zoVeIgKzGJzpdG6Gwnr7iOYfIMU.jpg",
+    "genre_ids": [
+      18,
+      10749
+    ],
+    "id": 11216,
+    "original_language": "it",
+    "original_title": "Nuovo Cinema Paradiso",
+    "overview": "A filmmaker recalls his childhood, when he fell in love with the movies at his village's theater and formed a deep friendship with the theater's projectionist.",
+    "popularity": 13.311,
+    "poster_path": "/8SRUfRUi6x4O68n0VCbDNRa6iGL.jpg",
+    "release_date": "1988-11-17",
+    "title": "Cinema Paradiso",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 3074
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/qvZ91FwMq6O47VViAr8vZNQz3WI.jpg",
+    "genre_ids": [
+      28,
+      18
+    ],
+    "id": 346,
+    "original_language": "ja",
+    "original_title": "七人の侍",
+    "overview": "A samurai answers a village's request for protection after he falls on hard times. The town needs protection from bandits, so the samurai gathers six others to help him teach the people how to defend themselves, and the villagers provide the soldiers with food.",
+    "popularity": 18.025,
+    "poster_path": "/tGLc7BE56VkIfDJVRoT9GLMBUr9.jpg",
+    "release_date": "1954-04-26",
+    "title": "Seven Samurai",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 2413
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/sw7mordbZxgITU877yTpZCud90M.jpg",
+    "genre_ids": [
+      18,
+      80
+    ],
+    "id": 769,
+    "original_language": "en",
+    "original_title": "GoodFellas",
+    "overview": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
+    "popularity": 33.889,
+    "poster_path": "/6QMSLvU5ziIL2T6VrkaKzN2YkxK.jpg",
+    "release_date": "1990-09-12",
+    "title": "GoodFellas",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 9416
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/m5HPKCi7GdhKmxPTcOQmcLfEmZ9.jpg",
+    "genre_ids": [
+      12,
+      35,
+      16,
+      14
+    ],
+    "id": 532067,
+    "original_language": "ja",
+    "original_title": "映画 この素晴らしい世界に祝福を！紅伝説",
+    "overview": "It is not strange that the Demon Lord's forces fear the Crimson Demons, the clan from which Megumin and Yunyun originate. Even if the Demon Lord's generals attack their village, the Crimson Demons can just easily brush them off with their supreme mastery of advanced and overpowered magic.  When Yunyun receives a seemingly serious letter regarding a potential disaster coming to her hometown, she immediately informs Kazuma Satou and the rest of his party. After a series of wacky misunderstandings, it turns out to be a mere prank by her fellow demon who wants to be an author. Even so, Megumin becomes worried about her family and sets out toward the Crimson Demons' village with the gang.  There, Kazuma and the others decide to sightsee the wonders of Megumin's birthplace. However, they soon come to realize that the nonsense threat they received might have been more than just a joke.",
+    "popularity": 184.662,
+    "poster_path": "/j73LuQcA21KvkVFcroWWMN8tTJv.jpg",
+    "release_date": "2019-08-30",
+    "title": "KonoSuba: God's Blessing on this Wonderful World! Legend of Crimson",
+    "video": false,
+    "vote_average": 8.5,
+    "vote_count": 301
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/uWVkEo9PWHu9algZsiLPi6sRU64.jpg",
+    "genre_ids": [
+      10402,
+      36,
+      18
+    ],
+    "id": 556574,
+    "original_language": "en",
+    "original_title": "Hamilton",
+    "overview": "Presenting the tale of American founding father Alexander Hamilton, this filmed version of the original Broadway smash hit is the story of America then, told by America now.",
+    "popularity": 18.028,
+    "poster_path": "/h1B7tW0t399VDjAcWJh8m87469b.jpg",
+    "release_date": "2020-07-03",
+    "title": "Hamilton",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 820
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/uPYa165sraN2c8gZBM9C47g3JoU.jpg",
+    "genre_ids": [
+      18,
+      80
+    ],
+    "id": 311,
+    "original_language": "en",
+    "original_title": "Once Upon a Time in America",
+    "overview": "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.",
+    "popularity": 25.559,
+    "poster_path": "/i0enkzsL5dPeneWnjl1fCWm6L7k.jpg",
+    "release_date": "1984-05-23",
+    "title": "Once Upon a Time in America",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 3805
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/5A9dsIpb7876nU9QrWEGziDmj0r.jpg",
+    "genre_ids": [
+      27,
+      18,
+      53
+    ],
+    "id": 539,
+    "original_language": "en",
+    "original_title": "Psycho",
+    "overview": "When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother.",
+    "popularity": 34.054,
+    "poster_path": "/nXjkXxpsE7ZGRCVd6PKkrf9tgsL.jpg",
+    "release_date": "1960-06-22",
+    "title": "Psycho",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 7680
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/qknxyRgP6UTmwJ4B9tDAmzHMq7u.jpg",
+    "genre_ids": [
+      10749,
+      16,
+      14
+    ],
+    "id": 92321,
+    "original_language": "ja",
+    "original_title": "蛍火の杜へ",
+    "overview": "One hot summer day a little girl gets lost in an enchanted forest of the mountain god where spirits reside. A young boy appears before her, but she cannot touch him for fear of making him disappear. And so a wondrous adventure awaits...",
+    "popularity": 0.6,
+    "poster_path": "/mDqzHV8UXWWNpZkoAbKmKX1ZxEE.jpg",
+    "release_date": "2011-09-17",
+    "title": "Hotarubi no Mori e",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 650
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/nC3IjYhUgZWgfKfFX0ygMigFwgc.jpg",
+    "genre_ids": [
+      28,
+      18,
+      36
+    ],
+    "id": 14537,
+    "original_language": "ja",
+    "original_title": "切腹",
+    "overview": "An unusual request for ritual suicide on a feudal lord's property leads to the unwinding of a greater mystery that challenges the clan's integrity.",
+    "popularity": 10.011,
+    "poster_path": "/fRqVjso3rdEcxZHXWE2xazDAtjI.jpg",
+    "release_date": "1962-09-15",
+    "title": "Harakiri",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 537
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/3nv2TEz2u178xPXzdKlZdUh5uOI.jpg",
+    "genre_ids": [
+      18
+    ],
+    "id": 550,
+    "original_language": "en",
+    "original_title": "Fight Club",
+    "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+    "popularity": 49.093,
+    "poster_path": "/a26cQPRhJPX6GbWfQbvZdrrp9j9.jpg",
+    "release_date": "1999-10-15",
+    "title": "Fight Club",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 22613
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/tDFvXn4tane9lUvFAFAUkMylwSr.jpg",
+    "genre_ids": [
+      16,
+      18,
+      10752
+    ],
+    "id": 12477,
+    "original_language": "ja",
+    "original_title": "火垂るの墓",
+    "overview": "In the final months of World War II, 14-year-old Seita and his sister Setsuko are orphaned when their mother is killed during an air raid in Kobe, Japan. After a falling out with their aunt, they move into an abandoned bomb shelter. With no surviving relatives and their emergency rations depleted, Seita and Setsuko struggle to survive.",
+    "popularity": 0.6,
+    "poster_path": "/qG3RYlIVpTYclR9TYIsy8p7m7AT.jpg",
+    "release_date": "1988-04-16",
+    "title": "Grave of the Fireflies",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 3764
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/bx326cwBtDsfDcnTgFlK5dXkyaC.jpg",
+    "genre_ids": [
+      10402,
+      18,
+      10749
+    ],
+    "id": 630566,
+    "original_language": "en",
+    "original_title": "Clouds",
+    "overview": "Young musician Zach Sobiech discovers his cancer has spread, leaving him just a few months to live. With limited time, he follows his dream and makes an album, unaware that it will soon be a viral music phenomenon.",
+    "popularity": 17.954,
+    "poster_path": "/d0OdD1I8qAfETvE9Rp9Voq7R8LR.jpg",
+    "release_date": "2020-10-09",
+    "title": "Clouds",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 752
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/q5HZvtyqG8Vz39Ee9uTQbLeEml.jpg",
+    "genre_ids": [
+      16,
+      18
+    ],
+    "id": 378064,
+    "original_language": "ja",
+    "original_title": "映画 聲の形",
+    "overview": "Shouya Ishida starts bullying the new girl in class, Shouko Nishimiya, because she is deaf. But as the teasing continues, the rest of the class starts to turn on Shouya for his lack of compassion. When they leave elementary school, Shouko and Shouya do not speak to each other again... until an older, wiser Shouya, tormented by his past behaviour, decides he must see Shouko once more. He wants to atone for his sins, but is it already too late...?",
+    "popularity": 116.426,
+    "poster_path": "/tuFaWiqX0TXoWu7DGNcmX3UW7sT.jpg",
+    "release_date": "2016-09-17",
+    "title": "A Silent Voice: The Movie",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 2582
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/3KwAmIKMaDcBMonF5wmyNTL0SR6.jpg",
+    "genre_ids": [
+      18
+    ],
+    "id": 510,
+    "original_language": "en",
+    "original_title": "One Flew Over the Cuckoo's Nest",
+    "overview": "While serving time for insanity at a state mental hospital, implacable rabble-rouser, Randle Patrick McMurphy, inspires his fellow patients to rebel against the authoritarian rule of head nurse, Mildred Ratched.",
+    "popularity": 17.202,
+    "poster_path": "/3jcbDmRFiQ83drXNOvRDeKHxS0C.jpg",
+    "release_date": "1975-11-18",
+    "title": "One Flew Over the Cuckoo's Nest",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 8103
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/88J6waYVTta8Qz3iX3qUeWNA5d5.jpg",
+    "genre_ids": [
+      18,
+      10749
+    ],
+    "id": 447362,
+    "original_language": "en",
+    "original_title": "Life in a Year",
+    "overview": "A 17 year old finds out that his girlfriend is dying, so he sets out to give her an entire life, in the last year she has left.",
+    "popularity": 56.455,
+    "poster_path": "/bP7u19opmHXYeTCUwGjlLldmUMc.jpg",
+    "release_date": "2020-11-27",
+    "title": "Life in a Year",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 864
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/194dso1hBwQEgIU3fgS7mXHtFAj.jpg",
+    "genre_ids": [
+      18,
+      80
+    ],
+    "id": 598,
+    "original_language": "pt",
+    "original_title": "Cidade de Deus",
+    "overview": "Buscapé was raised in a very violent environment. Despite the feeling that all odds were against him, he finds out that life can be seen with other eyes...",
+    "popularity": 23.21,
+    "poster_path": "/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg",
+    "release_date": "2002-02-05",
+    "title": "City of God",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 5366
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/wooZWiC4NWH0ahCSUOogEmVejHo.jpg",
+    "genre_ids": [
+      35,
+      10751
+    ],
+    "id": 640344,
+    "original_language": "it",
+    "original_title": "Me contro Te: Il film - La vendetta del Signor S",
+    "overview": "A new adventure for Luì and Sofi (Me contro Te), once again against the evil Mr. S, this time at the cinema. Mr. S is plotting revenge and working on a plan to become the master of the world. They will be called to stop him, giving their little fans and all families fun and lots of surprises.",
+    "popularity": 6.021,
+    "poster_path": "/sfeQTIRkJjWt8IPDSBcPqkrcaas.jpg",
+    "release_date": "2020-01-17",
+    "title": "Me contro Te: Il film - La vendetta del Signor S",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 423
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/xPpXYnCWfjkt3zzE0dpCNME1pXF.jpg",
+    "genre_ids": [
+      16,
+      28,
+      12,
+      14
+    ],
+    "id": 635302,
+    "original_language": "ja",
+    "original_title": "劇場版「鬼滅の刃」無限列車編",
+    "overview": "Tanjirō Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar's head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, boards the Infinity Train on a new mission with the Fire Hashira, Kyōjurō Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!",
+    "popularity": 910.006,
+    "poster_path": "/h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg",
+    "release_date": "2020-10-16",
+    "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 1749
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/sQkRiQo3nLrQYMXZodDjNUJKHZV.jpg",
+    "genre_ids": [
+      16,
+      28,
+      12,
+      14,
+      878
+    ],
+    "id": 618344,
+    "original_language": "en",
+    "original_title": "Justice League Dark: Apokolips War",
+    "overview": "Earth is decimated after intergalactic tyrant Darkseid has devastated the Justice League in a poorly executed war by the DC Super Heroes. Now the remaining bastions of good – the Justice League, Teen Titans, Suicide Squad and assorted others – must regroup, strategize and take the war to Darkseid in order to save the planet and its surviving inhabitants.",
+    "popularity": 68.972,
+    "poster_path": "/c01Y4suApJ1Wic2xLmaq1QYcfoZ.jpg",
+    "release_date": "2020-05-05",
+    "title": "Justice League Dark: Apokolips War",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 1050
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/6qVF0gnLnbKCgcMfCpCB8GH7B5I.jpg",
+    "genre_ids": [
+      28,
+      12,
+      16,
+      878,
+      35
+    ],
+    "id": 324857,
+    "original_language": "en",
+    "original_title": "Spider-Man: Into the Spider-Verse",
+    "overview": "Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson \"Kingpin\" Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.",
+    "popularity": 146.961,
+    "poster_path": "/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+    "release_date": "2018-12-06",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 10038
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/vwBa7djy1oxfxUjc7YtVgGNsjrT.jpg",
+    "genre_ids": [
+      14,
+      16,
+      12
+    ],
+    "id": 4935,
+    "original_language": "ja",
+    "original_title": "ハウルの動く城",
+    "overview": "When Sophie, a shy young woman, is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.",
+    "popularity": 53.957,
+    "poster_path": "/TkTPELv4kC3u1lkloush8skOjE.jpg",
+    "release_date": "2004-11-19",
+    "title": "Howl's Moving Castle",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 6746
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/AfyuI3glMCBDFmNPj9PY6DwbgGp.jpg",
+    "genre_ids": [
+      18,
+      878,
+      16,
+      28
+    ],
+    "id": 18491,
+    "original_language": "ja",
+    "original_title": "新世紀エヴァンゲリオン劇場版 Air／まごころを、君に",
+    "overview": "The second of two theatrically released follow-ups to the Neon Genesis Evangelion series. Comprising of two alternate episodes which were first intended to take the place of episodes 25 and 26, this finale answers many of the questions surrounding the series, while also opening up some new possibilities.",
+    "popularity": 30.473,
+    "poster_path": "/m9PTii0XWCIKZBBrCrOn8RLTK0w.jpg",
+    "release_date": "1997-07-19",
+    "title": "Neon Genesis Evangelion: The End of Evangelion",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 920
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/p47ihFj4A7EpBjmPHdTj4ipyq1S.jpg",
+    "genre_ids": [
+      18
+    ],
+    "id": 599,
+    "original_language": "en",
+    "original_title": "Sunset Boulevard",
+    "overview": "A hack screenwriter writes a screenplay for a former silent film star who has faded into Hollywood obscurity.",
+    "popularity": 13.199,
+    "poster_path": "/zt8aQ6ksqK6p1AopC5zVTDS9pKT.jpg",
+    "release_date": "1950-08-10",
+    "title": "Sunset Boulevard",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 1805
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/re3ZvlKJg04iLpLRf1xTKHS2wLU.jpg",
+    "genre_ids": [
+      16,
+      10751,
+      14,
+      10402,
+      10770,
+      878
+    ],
+    "id": 537061,
+    "original_language": "en",
+    "original_title": "Steven Universe: The Movie",
+    "overview": "Two years after bringing peace to the galaxy, Steven Universe sees his past come back to haunt him in the form of a deranged Gem who wants to destroy the Earth.",
+    "popularity": 33.073,
+    "poster_path": "/8mRgpubxHqnqvENK4Bei30xMDvy.jpg",
+    "release_date": "2019-09-02",
+    "title": "Steven Universe: The Movie",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 608
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/6esNUoXh4xQvucB7o7e3TCfjI65.jpg",
+    "genre_ids": [
+      35,
+      18,
+      10749
+    ],
+    "id": 522924,
+    "original_language": "en",
+    "original_title": "The Art of Racing in the Rain",
+    "overview": "A family dog - with a near-human soul and a philosopher's mind - evaluates his life through the lessons learned by his human owner, a race-car driver.",
+    "popularity": 21.472,
+    "poster_path": "/mi5VN4ww0JZgRFJIaPxxTGKjUg7.jpg",
+    "release_date": "2019-08-08",
+    "title": "The Art of Racing in the Rain",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 903
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/fgUacNwfO5paHavroHtHeMHZMDB.jpg",
+    "genre_ids": [
+      18,
+      14,
+      16
+    ],
+    "id": 610892,
+    "original_language": "ja",
+    "original_title": "ヴァイオレット・エヴァーガーデン 外伝 - 永遠と自動手記人形 -",
+    "overview": "Isabella, the daughter of the noble York family, is enrolled in an all-girls academy to be groomed into a dame worthy of nobility. However, she has given up on her future, seeing the prestigious school as nothing more than a prison from the outside world. Her family notices her struggling in her lessons and decides to hire Violet Evergarden to personally tutor her under the guise of a handmaiden.  At first, Isabella treats Violet coldly. Violet seems to be able to do everything perfectly, leading Isabella to assume that she was born with a silver spoon. After some time, Isabella begins to realize that Violet has had her own struggles and starts to open up to her. Isabella soon reveals that she has lost contact with her beloved younger sister, whom she yearns to see again.  Having experienced the power of words through her past clientele, Violet asks if Isabella wishes to write a letter to Taylor. Will Violet be able to help Isabella convey her feelings to her long-lost sister?",
+    "popularity": 22.969,
+    "poster_path": "/zjaSw6Ok0MhXjrruPrA27VHyUYC.jpg",
+    "release_date": "2019-09-06",
+    "title": "Violet Evergarden: Eternity and the Auto Memory Doll",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 200
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/pSsHFCwM5KMoRCc8X8wjpUDrlvr.jpg",
+    "genre_ids": [
+      16,
+      14,
+      10749,
+      18
+    ],
+    "id": 476292,
+    "original_language": "ja",
+    "original_title": "さよならの朝に約束の花をかざろう",
+    "overview": "Maquia is a member of a special race called the Iorph who can live for hundreds of years. However, Maquia has always felt lonely despite being surrounded by her people, as she was orphaned from a young age. She daydreams about the outside world, but dares not travel from her home due to the warnings of the clan's chief.  One day the kingdom of Mezarte invades her homeland. They already have what is left of the giant dragons, the Renato, under their control, and now their king wishes to add the immortality to his bloodline.  They ravage the Iorph homeland and kill most of its inhabitants. Caught in the midst of the attack, Maquia is carried off by one of the Renato. It soon dies, and she is left deserted in a forest, now truly alone save for the cries of a single baby off in the distance. Maquia finds the baby in a destroyed village and decides to raise him as her own, naming him Ariel. Although she knows nothing of the human world, how to raise a child that ages much faster than her.",
+    "popularity": 69.44,
+    "poster_path": "/hL3NqRE2ccR4Y2sYSJTrmalRjrz.jpg",
+    "release_date": "2018-02-24",
+    "title": "Maquia: When the Promised Flower Blooms",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 389
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/azIbQpeKKNF9r85lBSRrNnMK0Si.jpg",
+    "genre_ids": [
+      12,
+      28,
+      878
+    ],
+    "id": 1891,
+    "original_language": "en",
+    "original_title": "The Empire Strikes Back",
+    "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+    "popularity": 19.261,
+    "poster_path": "/7BuH8itoSrLExs2YZSsM01Qk2no.jpg",
+    "release_date": "1980-05-20",
+    "title": "The Empire Strikes Back",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 13444
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/pcDc2WJAYGJTTvRSEIpRZwM3Ola.jpg",
+    "genre_ids": [
+      28,
+      12,
+      14,
+      878
+    ],
+    "id": 791373,
+    "original_language": "en",
+    "original_title": "Zack Snyder's Justice League",
+    "overview": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
+    "popularity": 459.64,
+    "poster_path": "/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg",
+    "release_date": "2021-03-18",
+    "title": "Zack Snyder's Justice League",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 6679
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/5qtOVAcBFogwktkseoZSfZVq6bx.jpg",
+    "genre_ids": [
+      18
+    ],
+    "id": 3782,
+    "original_language": "ja",
+    "original_title": "生きる",
+    "overview": "Kanji Watanabe is a middle-aged man who has worked in the same monotonous bureaucratic position for decades. Learning he has cancer, he starts to look for the meaning of his life.",
+    "popularity": 11.963,
+    "poster_path": "/dgNTS4EQDDVfkzJI5msKuHu2Ei3.jpg",
+    "release_date": "1952-10-09",
+    "title": "Ikiru",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 713
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/dVr11o9or7AS8AMPfwjSpEU83iU.jpg",
+    "genre_ids": [
+      18,
+      10752
+    ],
+    "id": 423,
+    "original_language": "en",
+    "original_title": "The Pianist",
+    "overview": "The true story of pianist Władysław Szpilman's experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a café; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.",
+    "popularity": 28.077,
+    "poster_path": "/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg",
+    "release_date": "2002-09-17",
+    "title": "The Pianist",
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 6727
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/5h8VtV4oh2qkO8Iqz7gypIYJPAr.jpg",
+    "genre_ids": [
+      18,
+      10402
+    ],
+    "id": 244786,
+    "original_language": "en",
+    "original_title": "Whiplash",
+    "overview": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
+    "popularity": 41.318,
+    "poster_path": "/oPxnRhyAIzJKGUEdSiwTJQBa3NM.jpg",
+    "release_date": "2014-10-10",
     "title": "Whiplash",
-    "year": "2014",
-    "runtime": "107",
-    "genres": [
-      "Drama",
-      "Music"
-    ],
-    "director": "Damien Chazelle",
-    "actors": "Miles Teller, J.K. Simmons, Paul Reiser, Melissa Benoist",
-    "plot": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU4OTQ3MDUyMV5BMl5BanBnXkFtZTgwOTA2MjU0MjE@._V1_SX300.jpg"
-  },
-  {
-    "id": 140,
-    "title": "The Lives of Others",
-    "year": "2006",
-    "runtime": "137",
-    "genres": [
-      "Drama",
-      "Thriller"
-    ],
-    "director": "Florian Henckel von Donnersmarck",
-    "actors": "Martina Gedeck, Ulrich Mühe, Sebastian Koch, Ulrich Tukur",
-    "plot": "In 1984 East Berlin, an agent of the secret police, conducting surveillance on a writer and his lover, finds himself becoming increasingly absorbed by their lives.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BNDUzNjYwNDYyNl5BMl5BanBnXkFtZTcwNjU3ODQ0MQ@@._V1_SX300.jpg"
-  },
-  {
-    "id": 141,
-    "title": "Hotel Rwanda",
-    "year": "2004",
-    "runtime": "121",
-    "genres": [
-      "Drama",
-      "History",
-      "War"
-    ],
-    "director": "Terry George",
-    "actors": "Xolani Mali, Don Cheadle, Desmond Dube, Hakeem Kae-Kazim",
-    "plot": "Paul Rusesabagina was a hotel manager who housed over a thousand Tutsi refugees during their struggle against the Hutu militia in Rwanda.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI2MzQyNTc1M15BMl5BanBnXkFtZTYwMjExNjc3._V1_SX300.jpg"
-  },
-  {
-    "id": 142,
-    "title": "The Martian",
-    "year": "2015",
-    "runtime": "144",
-    "genres": [
-      "Adventure",
-      "Drama",
-      "Sci-Fi"
-    ],
-    "director": "Ridley Scott",
-    "actors": "Matt Damon, Jessica Chastain, Kristen Wiig, Jeff Daniels",
-    "plot": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc2MTQ3MDA1Nl5BMl5BanBnXkFtZTgwODA3OTI4NjE@._V1_SX300.jpg"
-  },
-  {
-    "id": 143,
-    "title": "To Kill a Mockingbird",
-    "year": "1962",
-    "runtime": "129",
-    "genres": [
-      "Crime",
-      "Drama"
-    ],
-    "director": "Robert Mulligan",
-    "actors": "Gregory Peck, John Megna, Frank Overton, Rosemary Murphy",
-    "plot": "Atticus Finch, a lawyer in the Depression-era South, defends a black man against an undeserved rape charge, and his kids against prejudice.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMjA4MzI1NDY2Nl5BMl5BanBnXkFtZTcwMTcyODc5Mw@@._V1_SX300.jpg"
-  },
-  {
-    "id": 144,
-    "title": "The Hateful Eight",
-    "year": "2015",
-    "runtime": "187",
-    "genres": [
-      "Crime",
-      "Drama",
-      "Mystery"
-    ],
-    "director": "Quentin Tarantino",
-    "actors": "Samuel L. Jackson, Kurt Russell, Jennifer Jason Leigh, Walton Goggins",
-    "plot": "In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA1MTc1NTg5NV5BMl5BanBnXkFtZTgwOTM2MDEzNzE@._V1_SX300.jpg"
-  },
-  {
-    "id": 145,
-    "title": "A Separation",
-    "year": "2011",
-    "runtime": "123",
-    "genres": [
-      "Drama",
-      "Mystery"
-    ],
-    "director": "Asghar Farhadi",
-    "actors": "Peyman Moaadi, Leila Hatami, Sareh Bayat, Shahab Hosseini",
-    "plot": "A married couple are faced with a difficult decision - to improve the life of their child by moving to another country or to stay in Iran and look after a deteriorating parent who has Alzheimer's disease.",
-    "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTYzMzU4NDUwOF5BMl5BanBnXkFtZTcwMTM5MjA5Ng@@._V1_SX300.jpg"
-  },
-  {
-    "id": 146,
-    "title": "The Big Short",
-    "year": "2015",
-    "runtime": "130",
-    "genres": [
-      "Biography",
-      "Comedy",
-      "Drama"
-    ],
-    "director": "Adam McKay",
-    "actors": "Ryan Gosling, Rudy Eisenzopf, Casey Groves, Charlie Talbert",
-    "plot": "Four denizens in the world of high-finance predict the credit and housing bubble collapse of the mid-2000s, and decide to take on the big banks for their greed and lack of foresight.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDc4MThhN2EtZjMzNC00ZDJmLThiZTgtNThlY2UxZWMzNjdkXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
+    "video": false,
+    "vote_average": 8.4,
+    "vote_count": 11489
   }
 ];
 
