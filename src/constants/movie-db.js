@@ -1181,7 +1181,3 @@ const movies = [
     "vote_count": 11489
   }
 ];
-
-module.exports = {
-  movies
-};

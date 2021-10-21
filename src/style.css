@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-primary: #2A0944;
+  --color-secondary: #3B185F;
+  --color-accent-1: #A12568;
+  --color-accent-2: #FEC260;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-primary);
+}
+
+.main {
+  margin: auto;
+  width: 90%;
+  max-width: 1440px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.home-brand {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-size: 3.5rem;
+  color: var(--color-accent-2);
+  font-family: 'Lato', sans-serif;
+}
+
+.search-form {
+  margin: auto;
+  margin-bottom: 2rem;
+  display: flex;
+  max-width: 800px;
+}
+
+.search-form input {
+  flex: 1;
+  padding: .75rem;
+  border: 0;
+  border-radius: 0;
+  border: 2px solid white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.search-form input:focus {
+  outline: none;
+  border: 2px solid var(--color-accent-2);
+}
+
+.search-form input::placeholder {
+  font-family: 'Roboto', sans-serif;
+}
+
+.search-form button {
+  margin-left: .5rem;
+  padding: 0 .75rem;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid var(--color-accent-2);
+  background-color: var(--color-accent-2);
+  color: var(--color-accent-1);
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  opacity: .9;
+}
+
+.movie-list {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat( auto-fill, minmax(300px, 1fr) );
+  grid-gap: 2rem;
+}
+
+.movie-card {
+  color: white;
+  align-self: flex-start;
+  background-color: var(--color-secondary);
+  transition: transform .1s ease-in;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card__info {
+  padding: .75rem;
+}
+
+.movie-card__poster {
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.movie-card__title {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
