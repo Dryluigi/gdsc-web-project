@@ -9,6 +9,8 @@ function truncateString(str, num) {
 function createMovieCardElement(movie) {
   const movieCard = document.createElement('div');
   movieCard.classList.add('movie-card');
+  movieCard.setAttribute('data-id', movie.id);
+  movieCard.addEventListener('click', onCardClick);
 
   const moviePoster = document.createElement('img');
   moviePoster.classList.add('movie-card__poster');

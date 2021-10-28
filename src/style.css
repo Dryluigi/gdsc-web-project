@@ -94,6 +94,7 @@ body {
 
 .movie-card__info {
   padding: .75rem;
+  pointer-events: none;
 }
 
 .movie-card__poster {
@@ -101,10 +102,60 @@ body {
   object-fit: cover;
   object-position: center;
   width: 100%;
+  pointer-events: none;
 }
 
 .movie-card__title {
   margin-bottom: 1rem;
   font-weight: 600;
   font-size: 1.5rem;
+  pointer-events: none;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+#overlay {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .7);
+  width: 100vw;
+  height: 100vh;
+}
+
+#modal {
+  z-index: 11;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  padding: 1.5rem;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+#poster-container {
+  display: flex;
+  justify-content: center;
+}
+
+#movie-poster {
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+#description-label {
+  margin-bottom: .5rem;
+  font-weight: 600;
+}
+
+#movie-title {
+  margin-bottom: 1rem;
 }

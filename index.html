@@ -13,6 +13,15 @@
 </head>
 
 <body>
+    <div id="overlay" class="d-none" onclick="closeModal()"></div>
+    <div id="modal" class="d-none">
+        <div id="poster-container">
+            <img id="movie-poster" src="" alt="movie-poster" />
+        </div>
+        <h1 id="movie-title">test</h1>
+        <p id="description-label">Deskripsi</p>
+        <p id="movie-overview">testt</p>
+    </div>
     <main class="main">
         <h1 class="text-center home-brand">Movie List</h1>
         <form action="#" class="search-form" onsubmit="searchHandler(event)">
@@ -34,6 +43,7 @@
 
     <script src="src/constants/api-config.js"></script>
     <script src="src/constants/movie-db.js"></script>
+    <script src="src/scripts/modal-handler.js"></script>
     <script src="src/scripts/init-movie-list.js"></script>
     <script src="src/scripts/search-handler.js"></script>
 </body>
