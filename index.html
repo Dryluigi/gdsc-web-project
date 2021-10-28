@@ -15,7 +15,7 @@
 <body>
     <main class="main">
         <h1 class="text-center home-brand">Movie List</h1>
-        <form action="#" class="search-form">
+        <form action="#" class="search-form" onsubmit="searchHandler(event)">
             <input type="text" name="search" id="search">
             <button type="submit">Search</button>
         </form>
@@ -35,6 +35,7 @@
     <script src="src/constants/api-config.js"></script>
     <script src="src/constants/movie-db.js"></script>
     <script src="src/scripts/init-movie-list.js"></script>
+    <script src="src/scripts/search-handler.js"></script>
 </body>
 
 </html>

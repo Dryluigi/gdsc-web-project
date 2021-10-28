@@ -35,10 +35,16 @@ function createMovieCardElement(movie) {
   return movieCard;
 }
 
-window.addEventListener('DOMContentLoaded', () => {
+function appendMovies(movies) {
   const movieList = document.querySelector('.movie-list');
+  movieList.innerHTML = "";
 
   movies.map(movie => {
     movieList.appendChild(createMovieCardElement(movie));
   });
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+
+  appendMovies(movies);
 });
